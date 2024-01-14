@@ -6,7 +6,7 @@ import tqdm as tq
 
 from google.cloud import bigquery
 from itertools import chain, product
-from typing import List, Tuple
+from typing import List, Tuple, Dict
 
 
 
@@ -24,21 +24,43 @@ def get_client(project_name: str = "amplified-brook-411020"):
 def sql_query(
     client=None,
     db: str = "gdelt-bq.gdeltv2.gkg",
-    search_cols: List[str] = None,
-    kwd_list: str = None,
-    and_or:str = "AND",
+    date_col:str = "DATE",
+    frac_date_col:str = "FractionDate",
+    since_year: int = None,
+    date_fmt:str = '%Y%m%d%H%M%S',
+    search_dicts : List[Dict] = None,
+    custom_query:str = None
 ):
-    query = f"""SELECT * FROM {db} WHERE"""
-    print(sql_query)
-    for col, kwd in zip(search_cols, kwd_list):
-        add = f" {col} like '%{kwd}%' {and_or}"
-        print(add)
-        query += add
-    print("\n")
-    query = query[:-3]
-    query += ";"
+    if custom_query:
+        query=custom_query
+    else:
+        query = f"""SELECT * FROM {db} WHERE"""
+        if since_year:
+            add = f" {frac_date_col} > {since_year} AND "
+            query += add
+
+
+        print(query)
+        for s_dict in search_dicts:
+            query+="("
+            col = s_dict["col"]
+            operator = s_dict["operator"]
+            terms = s_dict["search_terms"]
+
+            for idx, term in enumerate(terms):
+                if idx+1 == len(terms):
+                    operator=") AND "
+                add = f" {col} like '%{term}%' {operator}"
+                query += add
+                print(add)
+        if query.endswith("AND "):
+            query = query[:-4]
+        if query.endswith("OR"):
+            query = query[:-2]
+        query += ";"
+    print(query)
     df = client.query(query).to_dataframe()
-    df["DATE"] = df["DATE"].apply(lambda x: pd.to_datetime(x,format='%Y%m%d%H%M%S').date())
+    df[date_col] = df[date_col].apply(lambda x: pd.to_datetime(x,format=date_fmt).date())
     print(f"{df.shape[0]} rows!")
     print(df.head().to_markdown())
     return df
