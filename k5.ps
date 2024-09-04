@@ -1,0 +1,6404 @@
+%!PS-Adobe-3.0
+%%Creator: graphviz version 12.0.0 (0)
+%%Title: 
+%%Pages: (atend)
+%%BoundingBox: (atend)
+%%EndComments
+save
+%%BeginProlog
+/DotDict 200 dict def
+DotDict begin
+
+/setupLatin1 {
+mark
+/EncodingVector 256 array def
+ EncodingVector 0
+
+ISOLatin1Encoding 0 255 getinterval putinterval
+EncodingVector 45 /hyphen put
+
+% Set up ISO Latin 1 character encoding
+/starnetISO {
+        dup dup findfont dup length dict begin
+        { 1 index /FID ne { def }{ pop pop } ifelse
+        } forall
+        /Encoding EncodingVector def
+        currentdict end definefont
+} def
+/Times-Roman starnetISO def
+/Times-Italic starnetISO def
+/Times-Bold starnetISO def
+/Times-BoldItalic starnetISO def
+/Helvetica starnetISO def
+/Helvetica-Oblique starnetISO def
+/Helvetica-Bold starnetISO def
+/Helvetica-BoldOblique starnetISO def
+/Courier starnetISO def
+/Courier-Oblique starnetISO def
+/Courier-Bold starnetISO def
+/Courier-BoldOblique starnetISO def
+cleartomark
+} bind def
+
+%%BeginResource: procset graphviz 0 0
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+       dup 1 exch div /InvScaleFactor exch def
+       scale
+} bind def
+
+% styles
+/solid { [] 0 setdash } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+/tapered { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw text fitted to its expected width
+/alignedtext {			% width text
+	/text exch def
+	/width exch def
+	gsave
+		width 0 gt {
+			[] 0 setdash
+			text stringwidth pop width exch sub text length div 0 text ashow
+		} if
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+/showpage { } def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/layerlen layercolorseq length def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer 1 sub layerlen mod get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+% /arrowlength 10 def
+% /arrowwidth 5 def
+
+% make sure pdfmark is harmless for PS-interpreters other than Distiller
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+% make '<<' and '>>' safe on PS Level 1 devices
+/languagelevel where {pop languagelevel}{1} ifelse
+2 lt {
+    userdict (<<) cvn ([) cvn load put
+    userdict (>>) cvn ([) cvn load put
+} if
+
+%%EndSetup
+setupLatin1
+%%Page: 1 1
+%%PageBoundingBox: 36 36 386 268
+%%PageOrientation: Portrait
+0 0 1 beginpage
+gsave
+36 36 350 232 boxprim clip newpath
+1 1 set_scale 0 rotate 40 40 translate
+% Zelensky
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+154.46 84.837 44.698 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+129.71 79.787 moveto 49.5 (Zelensky) alignedtext
+grestore
+% Trump
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+101.67 66.956 36.509 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+82.92 61.906 moveto 37.5 (Trump) alignedtext
+grestore
+% Zelensky--Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 119.84 73.109 moveto
+119.68 73.057 119.53 73.004 119.37 72.952 curveto
+stroke
+grestore
+% Volodymyr Zelensky's
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+223.55 34.408 94.343 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+162.425 29.358 moveto 122.25 (Volodymyr Zelensky's) alignedtext
+grestore
+% Zelensky--Volodymyr Zelensky's
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 176.32 68.881 moveto
+183.59 63.572 191.74 57.626 199.19 52.187 curveto
+stroke
+grestore
+% volodymyr zelensky
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+233.67 91.694 86.666 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+178.17 86.644 moveto 111 (volodymyr zelensky) alignedtext
+grestore
+% Zelensky--volodymyr zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 198.23 88.626 moveto
+198.38 88.639 198.52 88.651 198.66 88.664 curveto
+stroke
+grestore
+% Scott Ritter
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+121.96 188.98 53.399 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+90.835 183.93 moveto 62.25 (Scott Ritter) alignedtext
+grestore
+% Zelensky--Scott Ritter
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 148.8 102.98 moveto
+142.87 121.97 133.61 151.65 127.66 170.7 curveto
+stroke
+grestore
+% Macron
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+194.55 123.94 40.093 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+173.175 118.89 moveto 42.75 (Macron) alignedtext
+grestore
+% Zelensky--Macron
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 171.69 101.65 moveto
+173.64 103.55 175.63 105.49 177.58 107.39 curveto
+stroke
+grestore
+% Viktor Orban
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+117.22 36.348 60.052 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+81.22 31.298 moveto 72 (Viktor Orban) alignedtext
+grestore
+% Zelensky--Viktor Orban
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 141.01 67.332 moveto
+137.76 63.1 134.28 58.57 131.02 54.318 curveto
+stroke
+grestore
+% Volodymyr Zelensky
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+137.63 94.936 89.226 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+80.255 89.886 moveto 114.75 (Volodymyr Zelensky) alignedtext
+grestore
+% Zelensky--Volodymyr Zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 137.68 94.907 moveto
+137.66 94.917 137.65 94.924 137.64 94.929 curveto
+stroke
+grestore
+% Sleboda
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+109.7 153.74 40.604 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+87.95 148.69 moveto 43.5 (Sleboda) alignedtext
+grestore
+% Zelensky--Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 142.93 102.58 moveto
+136.2 112.95 127.73 125.98 121.03 136.29 curveto
+stroke
+grestore
+% Xi Jinping
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+137.83 54.145 49.817 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+109.33 49.095 moveto 57 (Xi Jinping) alignedtext
+grestore
+% Zelensky--Xi Jinping
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 144.79 66.984 moveto
+144.73 66.878 144.67 66.773 144.62 66.668 curveto
+stroke
+grestore
+% Putin
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+171.57 110.86 30.367 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+157.32 105.81 moveto 28.5 (Putin) alignedtext
+grestore
+% Zelensky--Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 166.15 102.63 moveto
+166.25 102.77 166.34 102.91 166.43 103.06 curveto
+stroke
+grestore
+% Ekimenko
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+121.14 55.761 49.306 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+93.015 50.711 moveto 56.25 (Ekimenko) alignedtext
+grestore
+% Zelensky--Ekimenko
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 135.46 68.261 moveto
+135.34 68.159 135.23 68.057 135.11 67.955 curveto
+stroke
+grestore
+% Benjamin Netanyahu
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+89.737 85.139 89.737 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+31.987 80.089 moveto 115.5 (Benjamin Netanyahu) alignedtext
+grestore
+% Zelensky--Benjamin Netanyahu
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 109.51 85.047 moveto
+109.42 85.048 109.33 85.048 109.25 85.048 curveto
+stroke
+grestore
+% Vladimir Putin
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+152.61 95.081 66.706 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+111.735 90.031 moveto 81.75 (Vladimir Putin) alignedtext
+grestore
+% Zelensky--Vladimir Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 152.63 94.966 moveto
+152.62 95.003 152.62 95.032 152.61 95.051 curveto
+stroke
+grestore
+% Sputnik
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+149.16 111.72 39.58 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+128.16 106.67 moveto 42 (Sputnik) alignedtext
+grestore
+% Zelensky--Sputnik
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 150.84 103.22 moveto
+150.81 103.36 150.78 103.51 150.75 103.66 curveto
+stroke
+grestore
+% Dmitry Peskov
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+189.1 74.95 67.219 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+147.85 69.9 moveto 82.5 (Dmitry Peskov) alignedtext
+grestore
+% Zelensky--Dmitry Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 189 74.979 moveto
+189.03 74.969 189.06 74.962 189.08 74.957 curveto
+stroke
+grestore
+% Maria Zakharova
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+208.33 49.686 75.406 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+161.08 44.636 moveto 94.5 (Maria Zakharova) alignedtext
+grestore
+% Zelensky--Maria Zakharova
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 178.24 69.317 moveto
+179.48 68.508 180.73 67.693 181.98 66.879 curveto
+stroke
+grestore
+% Joe Biden's
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+63.092 125.7 52.888 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+32.342 120.65 moveto 61.5 (Joe Biden's) alignedtext
+grestore
+% Zelensky--Joe Biden's
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 124.03 98.442 moveto
+114.9 102.53 104.84 107.02 95.577 111.17 curveto
+stroke
+grestore
+% Emmanuel Macron
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+193.09 93.31 83.596 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+139.84 88.26 moveto 106.5 (Emmanuel Macron) alignedtext
+grestore
+% Zelensky--Emmanuel Macron
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 192.98 93.285 moveto
+193.01 93.293 193.04 93.3 193.06 93.304 curveto
+stroke
+grestore
+% Garland Nixon
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+74.451 109.68 66.194 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+33.951 104.63 moveto 81 (Garland Nixon) alignedtext
+grestore
+% Zelensky--Garland Nixon
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 118.67 95.952 moveto
+118.58 95.978 118.5 96.004 118.42 96.03 curveto
+stroke
+grestore
+% mediabankSubscribeMOSCOW
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+211.43 61.802 130.682 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+123.68 56.752 moveto 175.5 (mediabankSubscribeMOSCOW) alignedtext
+grestore
+% Zelensky--mediabankSubscribeMOSCOW
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 186.6 71.838 moveto
+186.7 71.798 186.81 71.757 186.91 71.716 curveto
+stroke
+grestore
+% Joe Biden
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+135.75 127.37 47.769 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+108.75 122.32 moveto 54 (Joe Biden) alignedtext
+grestore
+% Zelensky--Joe Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 146.63 102.63 moveto
+145.67 104.81 144.69 107.05 143.72 109.24 curveto
+stroke
+grestore
+% Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+170.94 95.235 65.682 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+130.815 90.185 moveto 80.25 (Sergey Lavrov) alignedtext
+grestore
+% Zelensky--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 170.9 95.205 moveto
+170.91 95.215 170.92 95.222 170.93 95.227 curveto
+stroke
+grestore
+% joe biden
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+159.19 170.68 45.21 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+134.065 165.63 moveto 50.25 (joe biden) alignedtext
+grestore
+% Zelensky--joe biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 155.46 103.04 moveto
+156.26 117.51 157.37 137.67 158.17 152.21 curveto
+stroke
+grestore
+% Peskov
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+177.73 44.089 37.534 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+158.23 39.039 moveto 39 (Peskov) alignedtext
+grestore
+% Zelensky--Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 164.73 66.846 moveto
+165.7 65.14 166.69 63.412 167.66 61.71 curveto
+stroke
+grestore
+% zelensky
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+224.9 124.8 43.164 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+201.275 119.75 moveto 47.25 (zelensky) alignedtext
+grestore
+% Zelensky--zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 180.69 99.719 moveto
+186.63 103.09 192.94 106.67 198.88 110.04 curveto
+stroke
+grestore
+% Ted Rall
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+156.86 197.51 42.651 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+133.61 192.46 moveto 46.5 (Ted Rall) alignedtext
+grestore
+% Zelensky--Ted Rall
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 154.85 103.19 moveto
+155.29 124.14 156.02 158.22 156.46 179.17 curveto
+stroke
+grestore
+% Biden
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+147.34 133.21 32.926 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+131.215 128.16 moveto 32.25 (Biden) alignedtext
+grestore
+% Zelensky--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 151.77 103.13 moveto
+151.2 106.98 150.6 111.04 150.04 114.9 curveto
+stroke
+grestore
+% Ian DeMartino
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+88.479 137.72 66.194 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+47.979 132.67 moveto 81 (Ian DeMartino) alignedtext
+grestore
+% Zelensky--Ian DeMartino
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 133.94 101.28 moveto
+126.38 107.35 117.78 114.23 110.12 120.37 curveto
+stroke
+grestore
+% Lavrov
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+177.78 18 37.534 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+158.28 12.95 moveto 39 (Lavrov) alignedtext
+grestore
+% Zelensky--Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 160.83 66.574 moveto
+164.18 56.988 168.26 45.292 171.58 35.779 curveto
+stroke
+grestore
+% Blinken
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+227.1 141.9 40.093 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+205.725 136.85 moveto 42.75 (Blinken) alignedtext
+grestore
+% Zelensky--Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 175.08 101.04 moveto
+185.06 108.88 197 118.26 206.93 126.05 curveto
+stroke
+grestore
+% Donbass
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+159.16 120.89 42.651 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+135.91 115.84 moveto 46.5 (Donbass) alignedtext
+grestore
+% Zelensky--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 156.86 103.29 moveto
+156.88 103.42 156.9 103.56 156.92 103.7 curveto
+stroke
+grestore
+% Peter Szijjarto
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+139.64 21.273 63.635 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+101.015 16.223 moveto 77.25 (Peter Szijjarto) alignedtext
+grestore
+% Zelensky--Peter Szijjarto
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 150.17 66.452 moveto
+148.19 57.945 145.84 47.872 143.86 39.397 curveto
+stroke
+grestore
+% Donald Trump
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+122.86 105.48 65.682 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+82.735 100.43 moveto 80.25 (Donald Trump) alignedtext
+grestore
+% Zelensky--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 130.51 100.48 moveto
+130.37 100.57 130.23 100.66 130.1 100.75 curveto
+stroke
+grestore
+% Kherson
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+201.44 154.45 42.139 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+178.565 149.4 moveto 45.75 (Kherson) alignedtext
+grestore
+% Zelensky--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 166.31 102.4 moveto
+173.49 113.04 182.61 126.54 189.75 137.13 curveto
+stroke
+grestore
+% vladimir putin
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+216.67 98.415 64.148 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+177.67 93.365 moveto 78 (vladimir putin) alignedtext
+grestore
+% Zelensky--vladimir putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 194.21 93.513 moveto
+194.3 93.534 194.4 93.555 194.49 93.576 curveto
+stroke
+grestore
+% Miles
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+172.7 160 32.415 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+156.95 154.95 moveto 31.5 (Miles) alignedtext
+grestore
+% Zelensky--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 158.87 103.03 moveto
+161.72 114.76 165.41 129.96 168.26 141.71 curveto
+stroke
+grestore
+% Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+207.2 140.17 54.934 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+174.95 135.12 moveto 64.5 (Zaporozhye) alignedtext
+grestore
+% Zelensky--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 170.86 102.04 moveto
+177.15 108.64 184.32 116.17 190.63 122.79 curveto
+stroke
+grestore
+% Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+117.11 176.79 65.682 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+76.985 171.74 moveto 80.25 (Kamala Harris) alignedtext
+grestore
+% Zelensky--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 147.08 103 moveto
+140.53 119.13 131.01 142.55 124.47 158.66 curveto
+stroke
+grestore
+% Ursula von der
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+156.19 21.132 66.194 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+115.69 16.082 moveto 81 (Ursula von der) alignedtext
+grestore
+% Zelensky--Ursula von der
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 154.96 66.411 moveto
+155.19 57.886 155.47 47.79 155.7 39.297 curveto
+stroke
+grestore
+% Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+161.76 53.143 70.29 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+118.26 48.093 moveto 87 (Antony Blinken) alignedtext
+grestore
+% Zelensky--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 158.62 66.768 moveto
+158.64 66.657 158.67 66.546 158.7 66.435 curveto
+stroke
+grestore
+% Kharkov
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+188.48 182.55 43.164 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+164.855 177.5 moveto 47.25 (Kharkov) alignedtext
+grestore
+% Zelensky--Kharkov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 160.7 102.76 moveto
+166.8 120.28 176.04 146.81 182.17 164.41 curveto
+stroke
+grestore
+% putin
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+101.4 110.96 29.856 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+87.525 105.91 moveto 27.75 (putin) alignedtext
+grestore
+% Zelensky--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 125.75 98.967 moveto
+125.46 99.112 125.17 99.256 124.87 99.399 curveto
+stroke
+grestore
+% Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+128.1 148.99 63.635 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+89.475 143.94 moveto 77.25 (Mark Sleboda) alignedtext
+grestore
+% Zelensky--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 146.97 103.05 moveto
+143.38 111.79 139.09 122.23 135.51 130.95 curveto
+stroke
+grestore
+% Kiev
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+168.25 146.9 28.832 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+155.125 141.85 moveto 26.25 (Kiev) alignedtext
+grestore
+% Zelensky--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 158.52 103.12 moveto
+160.33 111.28 162.46 120.85 164.26 128.96 curveto
+stroke
+grestore
+% Trump--Viktor Orban
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 110.72 49.151 moveto
+110.77 49.046 110.82 48.941 110.88 48.836 curveto
+stroke
+grestore
+% Trump--Xi Jinping
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 131.86 56.261 moveto
+131.97 56.221 132.08 56.182 132.19 56.143 curveto
+stroke
+grestore
+% Trump--Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 124.56 81.333 moveto
+132.84 86.535 142.15 92.385 150.29 97.497 curveto
+stroke
+grestore
+% Trump--Vladimir Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 126.25 80.524 moveto
+126.35 80.58 126.45 80.636 126.55 80.693 curveto
+stroke
+grestore
+% Trump--Sputnik
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 118.82 83.118 moveto
+122.96 87.025 127.4 91.206 131.56 95.133 curveto
+stroke
+grestore
+% Trump--Dmitry Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 137.99 70.277 moveto
+138.08 70.285 138.18 70.294 138.27 70.302 curveto
+stroke
+grestore
+% Trump--mediabankSubscribeMOSCOW
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 138.22 65.239 moveto
+138.34 65.234 138.47 65.228 138.59 65.222 curveto
+stroke
+grestore
+% Trump--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 130.25 78.621 moveto
+131.44 79.108 132.64 79.599 133.85 80.091 curveto
+stroke
+grestore
+% Trump--Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 133.05 57.523 moveto
+137.14 56.293 141.33 55.03 145.44 53.796 curveto
+stroke
+grestore
+% Trump--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 113.67 84.364 moveto
+120.44 94.179 128.86 106.39 135.58 116.15 curveto
+stroke
+grestore
+% Trump--Ian DeMartino
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 98.275 85.18 moveto
+96.32 95.664 93.871 108.8 91.911 119.32 curveto
+stroke
+grestore
+% Trump--Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 124.1 52.532 moveto
+133.83 46.271 145.22 38.947 154.99 32.659 curveto
+stroke
+grestore
+% Trump--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 118.92 83.137 moveto
+126.06 89.84 134.34 97.606 141.52 104.35 curveto
+stroke
+grestore
+% Trump--Peter Szijjarto
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 115.81 49.945 moveto
+118.76 46.394 121.88 42.641 124.85 39.062 curveto
+stroke
+grestore
+% Trump--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 111.27 84.414 moveto
+111.8 85.369 112.33 86.331 112.85 87.289 curveto
+stroke
+grestore
+% Trump--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 104.22 85.093 moveto
+107.08 105.44 111.69 138.27 114.55 158.63 curveto
+stroke
+grestore
+% Trump--Ursula von der
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 120.44 51.186 moveto
+125.24 47.147 130.44 42.78 135.34 38.658 curveto
+stroke
+grestore
+% Trump--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 107.54 85.161 moveto
+111.92 98.755 117.87 117.25 122.25 130.83 curveto
+stroke
+grestore
+% We'd
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+83.688 169.44 29.344 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+70.188 164.39 moveto 27 (We'd) alignedtext
+grestore
+% Trump--We'd
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 98.457 85.278 moveto
+95.184 103.93 90.139 132.68 86.875 151.28 curveto
+stroke
+grestore
+% Jamarl Thomas
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+177.74 202.84 68.242 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+135.74 197.79 moveto 84 (Jamarl Thomas) alignedtext
+grestore
+% Trump--Jamarl Thomas
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 111.62 84.72 moveto
+126.11 110.62 152.92 158.5 167.55 184.64 curveto
+stroke
+grestore
+% Volodymyr Zelensky's--volodymyr zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 226.81 52.849 moveto
+227.96 59.39 229.26 66.749 230.42 73.287 curveto
+stroke
+grestore
+% Volodymyr Zelensky's--Volodymyr Zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 198.7 51.915 moveto
+187.4 59.876 174.05 69.278 162.72 77.258 curveto
+stroke
+grestore
+% Volodymyr Zelensky's--Xi Jinping
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 162.63 48.436 moveto
+162.52 48.461 162.41 48.487 162.3 48.512 curveto
+stroke
+grestore
+% Volodymyr Zelensky's--Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 211.23 52.527 moveto
+202.7 65.068 191.43 81.646 183.08 93.923 curveto
+stroke
+grestore
+% Volodymyr Zelensky's--Vladimir Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 202.65 52.284 moveto
+193.33 60.253 182.39 69.612 173.12 77.542 curveto
+stroke
+grestore
+% Volodymyr Zelensky's--Sputnik
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 206.3 52.34 moveto
+193.93 65.187 177.4 82.37 165.3 94.947 curveto
+stroke
+grestore
+% Volodymyr Zelensky's--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 208.05 52.329 moveto
+201.14 60.319 193.03 69.701 186.15 77.651 curveto
+stroke
+grestore
+% Volodymyr Zelensky's--zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 223.82 52.701 moveto
+224.06 68.384 224.39 90.863 224.63 106.54 curveto
+stroke
+grestore
+% Volodymyr Zelensky's--Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 178.3 18.184 moveto
+178.13 18.124 178 18.078 177.92 18.047 curveto
+stroke
+grestore
+% Volodymyr Zelensky's--vladimir putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 221.59 52.579 moveto
+220.67 61.153 219.57 71.368 218.65 79.977 curveto
+stroke
+grestore
+% volodymyr zelensky--Macron
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 212.27 109.33 moveto
+212.13 109.44 211.99 109.56 211.85 109.68 curveto
+stroke
+grestore
+% volodymyr zelensky--Volodymyr Zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 147.91 94.589 moveto
+147.81 94.592 147.71 94.596 147.61 94.599 curveto
+stroke
+grestore
+% volodymyr zelensky--Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 184.43 106.89 moveto
+184.32 106.93 184.2 106.96 184.08 107 curveto
+stroke
+grestore
+% volodymyr zelensky--Vladimir Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 152.67 95.078 moveto
+152.65 95.079 152.63 95.08 152.62 95.08 curveto
+stroke
+grestore
+% volodymyr zelensky--Sputnik
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 175.9 105.39 moveto
+175.78 105.41 175.67 105.44 175.55 105.47 curveto
+stroke
+grestore
+% volodymyr zelensky--Dmitry Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 191.02 75.67 moveto
+190.86 75.612 190.72 75.558 190.58 75.507 curveto
+stroke
+grestore
+% volodymyr zelensky--Emmanuel Macron
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 193.2 93.305 moveto
+193.17 93.307 193.14 93.308 193.12 93.309 curveto
+stroke
+grestore
+% volodymyr zelensky--Joe Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 189.86 107.65 moveto
+183.45 109.99 176.91 112.37 170.71 114.63 curveto
+stroke
+grestore
+% volodymyr zelensky--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 170.99 95.232 moveto
+170.97 95.233 170.96 95.234 170.95 95.234 curveto
+stroke
+grestore
+% volodymyr zelensky--joe biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 216.77 109.62 moveto
+204.32 122.82 187.5 140.65 175.26 153.64 curveto
+stroke
+grestore
+% volodymyr zelensky--zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 228.87 109.8 moveto
+228.84 109.92 228.81 110.04 228.78 110.16 curveto
+stroke
+grestore
+% volodymyr zelensky--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 198.56 108.58 moveto
+189.78 112.8 180.55 117.24 172.37 121.18 curveto
+stroke
+grestore
+% volodymyr zelensky--Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 219.85 73.477 moveto
+210.93 61.713 199.4 46.511 190.67 34.996 curveto
+stroke
+grestore
+% volodymyr zelensky--Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 231.26 110.1 moveto
+230.69 114.47 230.08 119.13 229.51 123.49 curveto
+stroke
+grestore
+% volodymyr zelensky--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 192.49 107.83 moveto
+191.95 108.04 191.41 108.25 190.88 108.46 curveto
+stroke
+grestore
+% volodymyr zelensky--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 158.53 101.04 moveto
+158.37 101.06 158.22 101.08 158.07 101.1 curveto
+stroke
+grestore
+% volodymyr zelensky--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 224.35 109.85 moveto
+220.03 118.24 214.93 128.19 210.63 136.56 curveto
+stroke
+grestore
+% volodymyr zelensky--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 223.66 110.02 moveto
+221.49 113.99 219.21 118.18 217.05 122.14 curveto
+stroke
+grestore
+% volodymyr zelensky--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 201.92 74.672 moveto
+198.76 72.978 195.55 71.26 192.4 69.572 curveto
+stroke
+grestore
+% Scott Ritter--Volodymyr Zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 124.98 170.85 moveto
+127.74 154.3 131.79 129.96 134.56 113.33 curveto
+stroke
+grestore
+% Scott Ritter--Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 115.69 170.94 moveto
+115.64 170.81 115.59 170.67 115.55 170.54 curveto
+stroke
+grestore
+% Scott Ritter--Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 133.22 171.25 moveto
+141.45 158.29 152.55 140.8 160.69 127.98 curveto
+stroke
+grestore
+% Scott Ritter--Vladimir Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 127.87 170.87 moveto
+133.26 154.35 141.19 130.05 146.61 113.45 curveto
+stroke
+grestore
+% Scott Ritter--Sputnik
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 128.41 170.67 moveto
+132.74 158.35 138.43 142.19 142.76 129.9 curveto
+stroke
+grestore
+% Scott Ritter--Joe Biden's
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 105.87 171.69 moveto
+97.567 162.76 87.462 151.89 79.158 142.97 curveto
+stroke
+grestore
+% Scott Ritter--Joe Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 126.02 170.83 moveto
+127.8 162.87 129.89 153.56 131.67 145.6 curveto
+stroke
+grestore
+% Scott Ritter--joe biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 152.7 173.87 moveto
+152.83 173.81 152.94 173.75 153.06 173.69 curveto
+stroke
+grestore
+% Scott Ritter--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 130.27 170.72 moveto
+133.16 164.37 136.4 157.25 139.27 150.94 curveto
+stroke
+grestore
+% Scott Ritter--Ian DeMartino
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 110.25 171.05 moveto
+107.01 166.09 103.48 160.7 100.24 155.73 curveto
+stroke
+grestore
+% Scott Ritter--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 131.73 171.09 moveto
+137.16 161.16 143.89 148.84 149.32 138.9 curveto
+stroke
+grestore
+% Scott Ritter--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 122.15 170.86 moveto
+122.3 156.95 122.51 137.82 122.66 123.85 curveto
+stroke
+grestore
+% Scott Ritter--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 155.21 174.53 moveto
+160.57 172.21 166.09 169.81 171.37 167.51 curveto
+stroke
+grestore
+% Scott Ritter--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 149.4 173.27 moveto
+159.04 167.75 169.86 161.55 179.52 156.02 curveto
+stroke
+grestore
+% Scott Ritter--Kharkov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 173.72 183.97 moveto
+173.85 183.96 173.99 183.95 174.12 183.93 curveto
+stroke
+grestore
+% Scott Ritter--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 117.19 170.88 moveto
+113.87 158.28 109.46 141.54 106.14 128.95 curveto
+stroke
+grestore
+% Scott Ritter--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 124.74 170.85 moveto
+124.92 169.7 125.1 168.53 125.28 167.37 curveto
+stroke
+grestore
+% Scott Ritter--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 140.79 171.86 moveto
+144.39 168.59 148.14 165.18 151.67 161.97 curveto
+stroke
+grestore
+% Scott Ritter--We'd
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 92.182 173.78 moveto
+92.027 173.7 91.874 173.62 91.723 173.54 curveto
+stroke
+grestore
+% donald trump
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+63.99 142.83 61.076 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+27.24 137.78 moveto 73.5 (donald trump) alignedtext
+grestore
+% Scott Ritter--donald trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 100.7 172.05 moveto
+95.791 168.14 90.56 163.98 85.632 160.06 curveto
+stroke
+grestore
+% Macron--Volodymyr Zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 167.75 110.29 moveto
+167.64 110.23 167.52 110.17 167.41 110.11 curveto
+stroke
+grestore
+% Macron--Xi Jinping
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 180.53 106.69 moveto
+171.87 96.031 160.79 82.394 152.09 71.684 curveto
+stroke
+grestore
+% Macron--Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 171.63 110.9 moveto
+171.61 110.89 171.59 110.88 171.58 110.87 curveto
+stroke
+grestore
+% Macron--Ekimenko
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 176.78 107.44 moveto
+165.49 96.953 150.91 83.415 139.51 72.825 curveto
+stroke
+grestore
+% Macron--Benjamin Netanyahu
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 163.1 112.3 moveto
+153.69 108.82 143.21 104.94 133.18 101.22 curveto
+stroke
+grestore
+% Macron--Vladimir Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 172.59 108.83 moveto
+172.44 108.73 172.28 108.62 172.12 108.51 curveto
+stroke
+grestore
+% Macron--Sputnik
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 159.69 114.56 moveto
+159.59 114.53 159.5 114.51 159.4 114.48 curveto
+stroke
+grestore
+% Macron--Dmitry Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 192.52 105.7 moveto
+192.07 101.67 191.6 97.405 191.15 93.371 curveto
+stroke
+grestore
+% Macron--Emmanuel Macron
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 193.68 105.77 moveto
+193.68 105.67 193.67 105.56 193.67 105.46 curveto
+stroke
+grestore
+% Macron--mediabankSubscribeMOSCOW
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 199.52 105.63 moveto
+201.7 97.614 204.25 88.222 206.43 80.193 curveto
+stroke
+grestore
+% Macron--Joe Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 154.35 126.28 moveto
+154.19 126.29 154.03 126.3 153.87 126.31 curveto
+stroke
+grestore
+% Macron--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 180.54 106.91 moveto
+180.46 106.81 180.38 106.72 180.31 106.62 curveto
+stroke
+grestore
+% Macron--joe biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 181.38 141.35 moveto
+178.47 145.19 175.39 149.26 172.48 153.11 curveto
+stroke
+grestore
+% Macron--Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 190.73 105.82 moveto
+188 92.845 184.33 75.436 181.59 62.413 curveto
+stroke
+grestore
+% Macron--Ted Rall
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 185.42 141.75 moveto
+179.54 153.23 171.92 168.11 166.03 179.61 curveto
+stroke
+grestore
+% Macron--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 157.35 131.25 moveto
+157.26 131.26 157.17 131.28 157.08 131.3 curveto
+stroke
+grestore
+% Macron--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 159.26 120.9 moveto
+159.23 120.89 159.2 120.89 159.18 120.89 curveto
+stroke
+grestore
+% Macron--Peter Szijjarto
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 184.98 106.06 moveto
+174.96 87.328 159.32 58.077 149.28 39.296 curveto
+stroke
+grestore
+% Macron--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 159.54 114.93 moveto
+159.4 114.89 159.26 114.85 159.11 114.82 curveto
+stroke
+grestore
+% Macron--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 198.64 142.04 moveto
+198.66 142.14 198.68 142.25 198.71 142.35 curveto
+stroke
+grestore
+% Macron--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 183.88 141.55 moveto
+183.62 141.98 183.36 142.41 183.1 142.84 curveto
+stroke
+grestore
+% Macron--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 207.16 140.13 moveto
+207.18 140.14 207.18 140.15 207.19 140.16 curveto
+stroke
+grestore
+% Macron--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 186.27 106.08 moveto
+181.34 95.425 175.09 81.941 170.14 71.249 curveto
+stroke
+grestore
+% Macron--Kharkov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 192.66 142.16 moveto
+191.94 149.15 191.11 157.13 190.39 164.13 curveto
+stroke
+grestore
+% Macron--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 163.27 135.73 moveto
+163.13 135.78 163 135.83 162.86 135.88 curveto
+stroke
+grestore
+% Macron--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 176 140.14 moveto
+175.86 140.26 175.73 140.38 175.59 140.49 curveto
+stroke
+grestore
+% Macron--We'd
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 164.55 136.25 moveto
+146.98 143.46 125.05 152.46 108.47 159.27 curveto
+stroke
+grestore
+% Jeremy Kuzmarov
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+136.01 205.59 80.014 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+85.385 200.54 moveto 101.25 (Jeremy Kuzmarov) alignedtext
+grestore
+% Macron--Jeremy Kuzmarov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 182.13 141.26 moveto
+172.4 154.83 158.89 173.67 149.01 187.45 curveto
+stroke
+grestore
+% Viktor Orban--Volodymyr Zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 123.57 54.565 moveto
+126 61.552 128.78 69.525 131.22 76.529 curveto
+stroke
+grestore
+% Viktor Orban--Xi Jinping
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 137.32 53.705 moveto
+137.49 53.847 137.62 53.957 137.7 54.032 curveto
+stroke
+grestore
+% Viktor Orban--Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 130.38 54.387 moveto
+139.17 66.447 150.67 82.207 159.28 94.014 curveto
+stroke
+grestore
+% Viktor Orban--Ekimenko
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 120.93 54.717 moveto
+120.99 55.047 121.05 55.308 121.08 55.487 curveto
+stroke
+grestore
+% Viktor Orban--Vladimir Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 128.03 54.289 moveto
+132.34 61.441 137.29 69.664 141.62 76.845 curveto
+stroke
+grestore
+% Viktor Orban--Sputnik
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 124.95 54.595 moveto
+129.97 66.445 136.49 81.828 141.5 93.645 curveto
+stroke
+grestore
+% Viktor Orban--Dmitry Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 146.87 52.272 moveto
+150.74 54.349 154.71 56.48 158.59 58.564 curveto
+stroke
+grestore
+% Viktor Orban--Emmanuel Macron
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 139.98 53.439 moveto
+149.32 60.452 160.13 68.567 169.55 75.639 curveto
+stroke
+grestore
+% Viktor Orban--mediabankSubscribeMOSCOW
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 162.39 48.553 moveto
+162.49 48.579 162.58 48.604 162.67 48.63 curveto
+stroke
+grestore
+% Viktor Orban--Joe Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 120.97 54.767 moveto
+124.19 70.559 128.79 93.192 132.01 108.98 curveto
+stroke
+grestore
+% Viktor Orban--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 133.34 54.016 moveto
+140.14 61.469 148.04 70.128 154.84 77.579 curveto
+stroke
+grestore
+% Viktor Orban--Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 172.98 43.482 moveto
+173.07 43.493 173.16 43.505 173.25 43.517 curveto
+stroke
+grestore
+% Viktor Orban--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 122.89 54.568 moveto
+128.27 71.886 136.33 97.784 141.7 115.07 curveto
+stroke
+grestore
+% Viktor Orban--Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 159.94 23.406 moveto
+160.1 23.358 160.25 23.311 160.41 23.264 curveto
+stroke
+grestore
+% Viktor Orban--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 126.11 54.277 moveto
+133.23 68.624 143.16 88.646 150.28 102.99 curveto
+stroke
+grestore
+% Viktor Orban--Peter Szijjarto
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 139.57 21.316 moveto
+139.59 21.302 139.61 21.291 139.62 21.284 curveto
+stroke
+grestore
+% Viktor Orban--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 118.7 54.512 moveto
+119.52 64.593 120.54 77.097 121.37 87.197 curveto
+stroke
+grestore
+% Viktor Orban--Ursula von der
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 154.52 21.786 moveto
+155.05 21.578 155.47 21.415 155.76 21.303 curveto
+stroke
+grestore
+% Viktor Orban--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 155.19 50.665 moveto
+155.31 50.711 155.43 50.757 155.55 50.803 curveto
+stroke
+grestore
+% Viktor Orban--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 113.31 54.791 moveto
+110.86 66.356 107.71 81.202 105.26 92.727 curveto
+stroke
+grestore
+% Viktor Orban--donald trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 108.19 54.411 moveto
+98.402 73.991 82.87 105.06 73.064 124.68 curveto
+stroke
+grestore
+% Jens Stoltenberg
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+229.21 67.975 71.824 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+184.585 62.925 moveto 89.25 (Jens Stoltenberg) alignedtext
+grestore
+% Viktor Orban--Jens Stoltenberg
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 161.48 48.848 moveto
+167.84 50.644 174.41 52.499 180.84 54.316 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 128.95 113.22 moveto
+125.55 120.37 121.67 128.54 118.28 135.67 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Xi Jinping
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 137.72 76.45 moveto
+137.73 75.101 137.74 73.741 137.74 72.393 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 171.47 110.82 moveto
+171.5 110.83 171.52 110.85 171.54 110.85 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Ekimenko
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 129.96 76.725 moveto
+129.56 75.766 129.15 74.802 128.75 73.843 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Benjamin Netanyahu
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 89.874 85.168 moveto
+89.829 85.158 89.795 85.151 89.772 85.147 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Vladimir Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 152.44 95.079 moveto
+152.5 95.08 152.54 95.08 152.57 95.08 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Sputnik
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 149.13 111.67 moveto
+149.14 111.69 149.15 111.7 149.15 111.71 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Dmitry Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 179.66 78.616 moveto
+179.75 78.582 179.84 78.548 179.92 78.515 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Maria Zakharova
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 164.76 77.571 moveto
+170.21 74.081 175.94 70.415 181.39 66.93 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Emmanuel Macron
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 192.93 93.314 moveto
+192.98 93.313 193.02 93.312 193.05 93.311 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Garland Nixon
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 78.596 108.72 moveto
+78.434 108.75 78.275 108.79 78.121 108.83 curveto
+stroke
+grestore
+% Volodymyr Zelensky--mediabankSubscribeMOSCOW
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 174.96 78.175 moveto
+175.1 78.111 175.25 78.046 175.39 77.982 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Joe Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 136.56 113.43 moveto
+136.55 113.54 136.55 113.65 136.54 113.77 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 170.85 95.234 moveto
+170.88 95.234 170.9 95.234 170.92 95.235 curveto
+stroke
+grestore
+% Volodymyr Zelensky--joe biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 142.85 113.27 moveto
+146.24 125.18 150.64 140.64 154.02 152.51 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 151.88 76.866 moveto
+155.93 71.728 160.33 66.152 164.33 61.08 curveto
+stroke
+grestore
+% Volodymyr Zelensky--zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 183.82 110.74 moveto
+186.27 111.58 188.72 112.42 191.12 113.24 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Ted Rall
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 141.07 113.28 moveto
+144.57 131.95 149.96 160.72 153.45 179.33 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 142.26 113.18 moveto
+142.42 113.79 142.57 114.41 142.73 115.03 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Ian DeMartino
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 117.07 112.83 moveto
+114.23 115.31 111.31 117.84 108.48 120.31 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 152.58 112.96 moveto
+152.7 113.1 152.81 113.24 152.92 113.37 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 123.02 105.36 moveto
+122.97 105.4 122.93 105.43 122.9 105.45 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 156.78 112.79 moveto
+165.29 120.74 175.26 130.03 183.62 137.83 curveto
+stroke
+grestore
+% Volodymyr Zelensky--vladimir putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 216.61 98.413 moveto
+216.63 98.414 216.64 98.414 216.65 98.415 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 147.4 113.06 moveto
+152.34 122.24 158.32 133.33 163.23 142.42 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 164.73 112.56 moveto
+170.53 116.33 176.63 120.29 182.34 124 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 133.08 113.1 moveto
+129.7 126.57 125.11 144.87 121.72 158.4 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Ursula von der
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 142.22 76.692 moveto
+145.08 65.338 148.74 50.785 151.59 39.422 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 148 76.969 moveto
+149.08 75.111 150.17 73.221 151.24 71.36 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Kharkov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 148.17 113.09 moveto
+156.95 128.22 169.4 149.67 178.14 164.72 curveto
+stroke
+grestore
+% Volodymyr Zelensky--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 101.5 110.91 moveto
+101.47 110.93 101.44 110.94 101.42 110.95 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 134.4 113.24 moveto
+133.41 118.87 132.32 125.07 131.32 130.71 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 148.34 113.11 moveto
+151.51 118.5 154.98 124.38 158.11 129.7 curveto
+stroke
+grestore
+% Volodymyr Zelensky--donald trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 110.63 112.5 moveto
+103.73 116.98 96.34 121.79 89.52 126.22 curveto
+stroke
+grestore
+% Volodymyr Zelensky--Jens Stoltenberg
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 189.04 79.801 moveto
+189.21 79.753 189.37 79.705 189.53 79.657 curveto
+stroke
+grestore
+% Rand Paul
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+96.796 180.27 49.306 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+68.671 175.22 moveto 56.25 (Rand Paul) alignedtext
+grestore
+% Volodymyr Zelensky--Rand Paul
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 128.97 113.03 moveto
+122.04 127.51 112.37 147.72 105.44 162.2 curveto
+stroke
+grestore
+% Sleboda--Xi Jinping
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 114.86 135.47 moveto
+119.94 117.5 127.64 90.225 132.71 72.296 curveto
+stroke
+grestore
+% Sleboda--Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 132.04 138.26 moveto
+138.4 133.85 145.3 129.07 151.52 124.75 curveto
+stroke
+grestore
+% Sleboda--Vladimir Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 122.34 136.45 moveto
+127.78 129.02 134.14 120.34 139.61 112.85 curveto
+stroke
+grestore
+% Sleboda--Sputnik
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 125.3 137.13 moveto
+127.97 134.29 130.75 131.33 133.42 128.48 curveto
+stroke
+grestore
+% Sleboda--Garland Nixon
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 95.972 136.58 moveto
+93.652 133.68 91.238 130.66 88.9 127.74 curveto
+stroke
+grestore
+% Sleboda--Ted Rall
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 127.53 170.29 moveto
+131.28 173.77 135.25 177.45 139 180.94 curveto
+stroke
+grestore
+% Sleboda--Ian DeMartino
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 88.717 137.9 moveto
+88.639 137.85 88.58 137.8 88.539 137.77 curveto
+stroke
+grestore
+% Sleboda--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 132.69 138.47 moveto
+133.8 137.73 134.92 136.99 136.03 136.25 curveto
+stroke
+grestore
+% Sleboda--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 114.68 135.49 moveto
+115.72 131.65 116.83 127.59 117.88 123.75 curveto
+stroke
+grestore
+% Sleboda--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 150.74 154.06 moveto
+153.51 154.08 156.3 154.1 159.07 154.12 curveto
+stroke
+grestore
+% Sleboda--vladimir putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 136.42 139.92 moveto
+151.39 132.17 170.14 122.48 185.75 114.41 curveto
+stroke
+grestore
+% Sleboda--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 149.6 157.7 moveto
+149.7 157.71 149.79 157.72 149.89 157.73 curveto
+stroke
+grestore
+% Sleboda--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 148.8 148.3 moveto
+151.23 147.96 153.7 147.61 156.18 147.27 curveto
+stroke
+grestore
+% Sleboda--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 115.54 171.9 moveto
+115.57 171.99 115.59 172.08 115.62 172.17 curveto
+stroke
+grestore
+% Sleboda--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 119.01 135.75 moveto
+128.43 117.55 142.91 89.572 152.36 71.31 curveto
+stroke
+grestore
+% Sleboda--Kharkov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 141.29 165.29 moveto
+146 167.01 150.86 168.79 155.6 170.52 curveto
+stroke
+grestore
+% Sleboda--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 106.13 135.35 moveto
+105.73 133.26 105.32 131.14 104.91 129.06 curveto
+stroke
+grestore
+% Sleboda--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 128.05 149 moveto
+128.06 149 128.08 148.99 128.09 148.99 curveto
+stroke
+grestore
+% Sleboda--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 149.4 149.1 moveto
+149.57 149.08 149.73 149.07 149.89 149.05 curveto
+stroke
+grestore
+% Nixon
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+66.842 92.604 33.95 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+49.967 87.554 moveto 33.75 (Nixon) alignedtext
+grestore
+% Sleboda--Nixon
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 97.535 136.38 moveto
+91.694 128.05 84.717 118.1 78.892 109.79 curveto
+stroke
+grestore
+% Xi Jinping--Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 148.51 72.092 moveto
+152.6 78.972 157.26 86.802 161.31 93.616 curveto
+stroke
+grestore
+% Xi Jinping--Vladimir Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 144.36 72.219 moveto
+144.91 73.761 145.48 75.322 146.03 76.865 curveto
+stroke
+grestore
+% Xi Jinping--Sputnik
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 141.42 72.363 moveto
+142.74 79.084 144.24 86.698 145.56 93.426 curveto
+stroke
+grestore
+% Xi Jinping--Dmitry Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 171.46 67.79 moveto
+171.61 67.852 171.76 67.913 171.91 67.974 curveto
+stroke
+grestore
+% Xi Jinping--Emmanuel Macron
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 160.95 70.528 moveto
+163.43 72.288 165.97 74.085 168.47 75.857 curveto
+stroke
+grestore
+% Xi Jinping--Joe Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 137.31 72.622 moveto
+136.99 83.722 136.59 97.797 136.28 108.9 curveto
+stroke
+grestore
+% Xi Jinping--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 152.07 71.809 moveto
+153.54 73.636 155.04 75.495 156.51 77.324 curveto
+stroke
+grestore
+% Xi Jinping--zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 158.47 70.89 moveto
+172.45 82.236 190.83 97.155 204.71 108.42 curveto
+stroke
+grestore
+% Xi Jinping--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 140.04 72.484 moveto
+141.58 85.257 143.62 102.22 145.15 114.97 curveto
+stroke
+grestore
+% Xi Jinping--Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 156.41 37.342 moveto
+157.55 36.31 158.69 35.272 159.83 34.242 curveto
+stroke
+grestore
+% Xi Jinping--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 143.66 72.383 moveto
+146.67 81.801 150.33 93.259 153.34 102.67 curveto
+stroke
+grestore
+% Xi Jinping--Peter Szijjarto
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 138.84 35.787 moveto
+138.85 35.669 138.85 35.552 138.86 35.434 curveto
+stroke
+grestore
+% Xi Jinping--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 132.51 72.388 moveto
+131.1 77.23 129.57 82.457 128.16 87.295 curveto
+stroke
+grestore
+% Xi Jinping--vladimir putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 164.96 69.38 moveto
+172.18 73.432 180 77.827 187.33 81.942 curveto
+stroke
+grestore
+% Xi Jinping--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 143.75 72.102 moveto
+150.16 91.568 160.33 122.46 166.76 141.96 curveto
+stroke
+grestore
+% Xi Jinping--Ursula von der
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 147.87 36.093 moveto
+147.94 35.973 148.01 35.853 148.07 35.732 curveto
+stroke
+grestore
+% Xi Jinping--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 161.69 53.146 moveto
+161.71 53.145 161.73 53.144 161.74 53.143 curveto
+stroke
+grestore
+% Xi Jinping--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 126.31 72.121 moveto
+121.8 79.143 116.67 87.152 112.23 94.065 curveto
+stroke
+grestore
+% Xi Jinping--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 135.96 72.432 moveto
+134.23 89.226 131.69 113.98 129.97 130.76 curveto
+stroke
+grestore
+% Xi Jinping--Nixon
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 109.78 69.345 moveto
+103.58 72.704 97.057 76.235 91.026 79.503 curveto
+stroke
+grestore
+% Putin--Ekimenko
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 156.98 94.926 moveto
+150.7 88.061 143.34 80.017 136.93 73.012 curveto
+stroke
+grestore
+% Putin--Benjamin Netanyahu
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 144.32 102.3 moveto
+142.55 101.74 140.75 101.18 138.92 100.6 curveto
+stroke
+grestore
+% Putin--Vladimir Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 153.63 95.929 moveto
+153.31 95.661 153.05 95.449 152.88 95.304 curveto
+stroke
+grestore
+% Putin--Sputnik
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 149.22 111.72 moveto
+149.2 111.72 149.19 111.72 149.18 111.72 curveto
+stroke
+grestore
+% Putin--Dmitry Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 180.13 93.328 moveto
+180.2 93.186 180.27 93.043 180.34 92.901 curveto
+stroke
+grestore
+% Putin--Maria Zakharova
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 182 93.497 moveto
+186.84 85.442 192.59 75.874 197.48 67.736 curveto
+stroke
+grestore
+% Putin--Emmanuel Macron
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 189.73 96.053 moveto
+189.85 95.95 189.97 95.849 190.1 95.751 curveto
+stroke
+grestore
+% Putin--Garland Nixon
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 140.84 110.49 moveto
+140.73 110.49 140.62 110.49 140.5 110.49 curveto
+stroke
+grestore
+% Putin--mediabankSubscribeMOSCOW
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 185.06 94.254 moveto
+188.76 89.695 192.8 84.727 196.58 80.08 curveto
+stroke
+grestore
+% Putin--Joe Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 147.48 121.96 moveto
+147.38 122.01 147.28 122.06 147.18 122.1 curveto
+stroke
+grestore
+% Putin--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 170.95 95.41 moveto
+170.95 95.353 170.95 95.309 170.94 95.28 curveto
+stroke
+grestore
+% Putin--joe biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 167.79 129.14 moveto
+166.25 136.56 164.48 145.11 162.95 152.52 curveto
+stroke
+grestore
+% Putin--Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 173.25 92.618 moveto
+174.12 83.196 175.18 71.733 176.04 62.314 curveto
+stroke
+grestore
+% Putin--zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 199.79 118.24 moveto
+199.89 118.27 199.99 118.29 200.09 118.32 curveto
+stroke
+grestore
+% Putin--Ted Rall
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 168.45 129.24 moveto
+165.95 143.95 162.47 164.47 159.97 179.17 curveto
+stroke
+grestore
+% Putin--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 155.01 126.14 moveto
+154.88 126.26 154.74 126.39 154.61 126.51 curveto
+stroke
+grestore
+% Putin--Ian DeMartino
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 144.82 119.51 moveto
+140.64 120.86 136.24 122.28 131.81 123.72 curveto
+stroke
+grestore
+% Putin--Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 172.79 92.517 moveto
+173.88 76.237 175.47 52.578 176.56 36.309 curveto
+stroke
+grestore
+% Putin--Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 193.83 123.31 moveto
+196.37 124.73 198.96 126.18 201.54 127.62 curveto
+stroke
+grestore
+% Putin--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 159.3 120.78 moveto
+159.25 120.81 159.22 120.84 159.19 120.86 curveto
+stroke
+grestore
+% Putin--Peter Szijjarto
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 165.26 93.164 moveto
+159.73 77.661 151.74 55.224 146.15 39.552 curveto
+stroke
+grestore
+% Putin--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 141.27 107.52 moveto
+141.12 107.5 140.96 107.48 140.81 107.46 curveto
+stroke
+grestore
+% Putin--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 183.03 127.59 moveto
+185.14 130.66 187.34 133.88 189.46 136.97 curveto
+stroke
+grestore
+% Putin--vladimir putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 199.36 103.19 moveto
+199.5 103.15 199.65 103.11 199.79 103.07 curveto
+stroke
+grestore
+% Putin--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 171.99 129.16 moveto
+172.08 133.2 172.18 137.48 172.27 141.53 curveto
+stroke
+grestore
+% Putin--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 189.38 125.52 moveto
+189.52 125.63 189.66 125.75 189.8 125.86 curveto
+stroke
+grestore
+% Putin--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 158.1 127.16 moveto
+150.17 136.77 140.11 148.94 131.95 158.83 curveto
+stroke
+grestore
+% Putin--Ursula von der
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 168.45 92.706 moveto
+165.81 77.24 162.02 55.118 159.35 39.572 curveto
+stroke
+grestore
+% Putin--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 168.46 92.601 moveto
+167.32 85.863 166.02 78.23 164.87 71.486 curveto
+stroke
+grestore
+% Putin--Kharkov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 175.83 128.95 moveto
+178.38 139.74 181.6 153.39 184.16 164.21 curveto
+stroke
+grestore
+% Putin--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 140.99 110.9 moveto
+137.89 110.91 134.74 110.91 131.64 110.92 curveto
+stroke
+grestore
+% Putin--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 154.39 125.93 moveto
+152.3 127.76 150.15 129.65 148.03 131.51 curveto
+stroke
+grestore
+% Putin--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 169.87 129.31 moveto
+169.86 129.45 169.84 129.58 169.83 129.72 curveto
+stroke
+grestore
+% Putin--Jamarl Thomas
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 172.79 129.04 moveto
+173.86 145.06 175.42 168.29 176.5 184.39 curveto
+stroke
+grestore
+% Putin--Rand Paul
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 154.97 126.27 moveto
+143.18 137.21 127.35 151.91 115.18 163.2 curveto
+stroke
+grestore
+% Putin--Nixon
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 142.12 105.73 moveto
+128.81 103.41 113.04 100.66 99.378 98.277 curveto
+stroke
+grestore
+% kiev loose
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+257.67 118.09 48.792 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+229.92 113.04 moveto 55.5 (kiev loose) alignedtext
+grestore
+% Putin--kiev loose
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 201.68 113.39 moveto
+204.3 113.61 206.99 113.84 209.7 114.07 curveto
+stroke
+grestore
+% ATACMS
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+214.24 183.53 48.281 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+186.865 178.48 moveto 54.75 (ATACMS) alignedtext
+grestore
+% Putin--ATACMS
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 181.68 128.09 moveto
+188.33 139.42 197.03 154.22 203.76 165.68 curveto
+stroke
+grestore
+% Ekimenko--Benjamin Netanyahu
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 102.87 72.851 moveto
+102.76 72.952 102.66 73.052 102.55 73.153 curveto
+stroke
+grestore
+% Ekimenko--Vladimir Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 135.03 73.122 moveto
+136.09 74.438 137.15 75.769 138.21 77.089 curveto
+stroke
+grestore
+% Ekimenko--Sputnik
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 130.16 73.776 moveto
+133.36 80.166 136.96 87.354 140.16 93.742 curveto
+stroke
+grestore
+% Ekimenko--Dmitry Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 160.67 66.923 moveto
+160.79 66.956 160.91 66.989 161.02 67.022 curveto
+stroke
+grestore
+% Ekimenko--Emmanuel Macron
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 149.99 70.817 moveto
+153.43 72.613 156.96 74.455 160.45 76.276 curveto
+stroke
+grestore
+% Ekimenko--Joe Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 124.9 74.201 moveto
+127.1 84.975 129.86 98.517 132.05 109.24 curveto
+stroke
+grestore
+% Ekimenko--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 142.26 72.501 moveto
+144.49 74.267 146.76 76.064 148.99 77.837 curveto
+stroke
+grestore
+% Ekimenko--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 127.35 74.116 moveto
+131.56 86.552 137.09 102.91 141.27 115.26 curveto
+stroke
+grestore
+% Ekimenko--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 131.53 73.558 moveto
+136.89 82.747 143.42 93.928 148.78 103.11 curveto
+stroke
+grestore
+% Ekimenko--Peter Szijjarto
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 130.82 37.709 moveto
+130.89 37.579 130.96 37.448 131.03 37.318 curveto
+stroke
+grestore
+% Ekimenko--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 121.77 73.992 moveto
+121.92 78.315 122.08 82.927 122.23 87.25 curveto
+stroke
+grestore
+% Ekimenko--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 135.5 73.404 moveto
+150.2 91.479 172.92 119.39 187.48 137.29 curveto
+stroke
+grestore
+% Ekimenko--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 138.55 72.843 moveto
+153.39 87.391 174.61 108.2 189.51 122.83 curveto
+stroke
+grestore
+% Ekimenko--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 114.67 73.834 moveto
+112.47 79.997 110.01 86.881 107.81 93.032 curveto
+stroke
+grestore
+% Ekimenko--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 130.45 73.768 moveto
+138.81 89.954 151.02 113.57 159.28 129.55 curveto
+stroke
+grestore
+% Benjamin Netanyahu--Vladimir Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 152.56 95.074 moveto
+152.58 95.076 152.59 95.078 152.6 95.079 curveto
+stroke
+grestore
+% Benjamin Netanyahu--Sputnik
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 127.03 101.82 moveto
+127.13 101.87 127.22 101.91 127.31 101.95 curveto
+stroke
+grestore
+% Benjamin Netanyahu--Dmitry Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 170.41 76.867 moveto
+170.5 76.858 170.58 76.849 170.67 76.84 curveto
+stroke
+grestore
+% Benjamin Netanyahu--Joe Biden's
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 77.972 103.05 moveto
+76.913 104.66 75.84 106.29 74.781 107.9 curveto
+stroke
+grestore
+% Benjamin Netanyahu--Emmanuel Macron
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 173.65 91.773 moveto
+173.74 91.78 173.83 91.787 173.92 91.794 curveto
+stroke
+grestore
+% Benjamin Netanyahu--Joe Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 109.25 103.05 moveto
+111.9 105.48 114.6 107.96 117.23 110.37 curveto
+stroke
+grestore
+% Benjamin Netanyahu--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 166.58 94.692 moveto
+166.75 94.714 166.92 94.734 167.08 94.755 curveto
+stroke
+grestore
+% Benjamin Netanyahu--Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 126.03 68.206 moveto
+134.18 64.407 142.68 60.439 150.39 56.844 curveto
+stroke
+grestore
+% Benjamin Netanyahu--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 111.19 103.04 moveto
+117.07 107.95 123.4 113.23 129.09 117.98 curveto
+stroke
+grestore
+% Benjamin Netanyahu--Ian DeMartino
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 89.297 103.53 moveto
+89.175 108.63 89.043 114.16 88.921 119.25 curveto
+stroke
+grestore
+% Benjamin Netanyahu--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 118.25 102.65 moveto
+118.43 102.76 118.6 102.86 118.76 102.96 curveto
+stroke
+grestore
+% Benjamin Netanyahu--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 100.63 103.26 moveto
+105.86 111.97 112.1 122.36 117.31 131.04 curveto
+stroke
+grestore
+% Benjamin Netanyahu--We'd
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 88.424 103.43 moveto
+87.41 117.57 86.012 137.05 84.998 151.18 curveto
+stroke
+grestore
+% Benjamin Netanyahu--Jeremy Kuzmarov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 96.765 103.43 moveto
+105.51 126.2 120.36 164.85 129.07 187.52 curveto
+stroke
+grestore
+% Vladimir Putin--Sputnik
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 149.17 111.68 moveto
+149.17 111.69 149.16 111.7 149.16 111.71 curveto
+stroke
+grestore
+% Vladimir Putin--Dmitry Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 182.41 78.643 moveto
+182.53 78.574 182.65 78.506 182.78 78.44 curveto
+stroke
+grestore
+% Vladimir Putin--Maria Zakharova
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 173.99 77.66 moveto
+178.17 74.259 182.55 70.692 186.73 67.286 curveto
+stroke
+grestore
+% Vladimir Putin--Joe Biden's
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 110.47 109.49 moveto
+107.3 110.58 104.11 111.67 100.96 112.74 curveto
+stroke
+grestore
+% Vladimir Putin--Emmanuel Macron
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 192.97 93.315 moveto
+193.01 93.313 193.04 93.312 193.06 93.311 curveto
+stroke
+grestore
+% Vladimir Putin--Garland Nixon
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 97.058 105.46 moveto
+96.958 105.48 96.859 105.5 96.76 105.52 curveto
+stroke
+grestore
+% Vladimir Putin--mediabankSubscribeMOSCOW
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 181.67 78.636 moveto
+181.79 78.571 181.9 78.505 182.02 78.44 curveto
+stroke
+grestore
+% Vladimir Putin--Joe Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 143.19 113.11 moveto
+143.13 113.23 143.07 113.34 143.01 113.46 curveto
+stroke
+grestore
+% Vladimir Putin--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 170.89 95.234 moveto
+170.91 95.235 170.92 95.235 170.93 95.235 curveto
+stroke
+grestore
+% Vladimir Putin--joe biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 154.2 113.38 moveto
+155.23 125.18 156.56 140.47 157.59 152.29 curveto
+stroke
+grestore
+% Vladimir Putin--Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 161.54 76.959 moveto
+163.96 72.036 166.58 66.711 169 61.809 curveto
+stroke
+grestore
+% Vladimir Putin--zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 189.6 110.29 moveto
+190.99 110.86 192.38 111.43 193.76 112 curveto
+stroke
+grestore
+% Vladimir Putin--Ted Rall
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 153.37 113.39 moveto
+154.14 132.04 155.33 160.77 156.1 179.36 curveto
+stroke
+grestore
+% Vladimir Putin--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 150.1 113.25 moveto
+150.02 113.87 149.93 114.48 149.85 115.1 curveto
+stroke
+grestore
+% Vladimir Putin--Ian DeMartino
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 127.26 111.93 moveto
+122.92 114.82 118.41 117.82 114.06 120.71 curveto
+stroke
+grestore
+% Vladimir Putin--Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 158.58 76.814 moveto
+162.59 64.526 167.86 48.396 171.86 36.136 curveto
+stroke
+grestore
+% Vladimir Putin--Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 179.5 111.98 moveto
+187.34 116.91 195.83 122.25 203.45 127.04 curveto
+stroke
+grestore
+% Vladimir Putin--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 157.23 113.29 moveto
+157.26 113.42 157.3 113.55 157.33 113.68 curveto
+stroke
+grestore
+% Vladimir Putin--Peter Szijjarto
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 149.4 76.836 moveto
+147.41 65.481 144.85 50.927 142.85 39.563 curveto
+stroke
+grestore
+% Vladimir Putin--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 122.94 105.45 moveto
+122.91 105.46 122.89 105.47 122.88 105.47 curveto
+stroke
+grestore
+% Vladimir Putin--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 167.26 112.89 moveto
+173.55 120.54 180.88 129.45 187.14 137.06 curveto
+stroke
+grestore
+% Vladimir Putin--vladimir putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 216.62 98.413 moveto
+216.64 98.414 216.65 98.414 216.66 98.415 curveto
+stroke
+grestore
+% Vladimir Putin--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 158.31 113.51 moveto
+161.1 122.51 164.43 133.29 167.19 142.2 curveto
+stroke
+grestore
+% Vladimir Putin--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 173.56 112.39 moveto
+177.89 115.96 182.44 119.72 186.76 123.29 curveto
+stroke
+grestore
+% Vladimir Putin--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 144.73 113.22 moveto
+138.85 126.76 130.84 145.18 124.96 158.71 curveto
+stroke
+grestore
+% Vladimir Putin--Ursula von der
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 153.5 76.801 moveto
+154.05 65.425 154.75 50.843 155.31 39.458 curveto
+stroke
+grestore
+% Vladimir Putin--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 156.54 77.052 moveto
+156.95 75.187 157.36 73.291 157.77 71.423 curveto
+stroke
+grestore
+% Vladimir Putin--Kharkov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 160.04 113.2 moveto
+166.2 128.21 174.91 149.44 181.06 164.45 curveto
+stroke
+grestore
+% Vladimir Putin--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 108.09 108.88 moveto
+107.97 108.92 107.84 108.96 107.72 109 curveto
+stroke
+grestore
+% Vladimir Putin--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 144.31 113.33 moveto
+141.76 118.95 138.94 125.14 136.39 130.76 curveto
+stroke
+grestore
+% Vladimir Putin--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 158.17 113.5 moveto
+159.68 118.5 161.31 123.91 162.82 128.89 curveto
+stroke
+grestore
+% Vladimir Putin--Jens Stoltenberg
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 193.6 80.576 moveto
+193.74 80.526 193.89 80.475 194.03 80.425 curveto
+stroke
+grestore
+% Vladimir Putin--Rand Paul
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 140.77 113.15 moveto
+131.24 127.7 117.9 148.05 108.42 162.52 curveto
+stroke
+grestore
+% Vladimir Putin--Nixon
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 85.877 93.153 moveto
+85.79 93.151 85.704 93.148 85.618 93.146 curveto
+stroke
+grestore
+% Vladimir Putin--kiev loose
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 205.14 106.59 moveto
+208.52 107.33 211.91 108.07 215.24 108.8 curveto
+stroke
+grestore
+% Sputnik--Dmitry Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 166.8 95.487 moveto
+167.88 94.486 168.98 93.477 170.07 92.472 curveto
+stroke
+grestore
+% Sputnik--Maria Zakharova
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 165.02 95.098 moveto
+173.09 86.628 182.93 76.318 191.18 67.663 curveto
+stroke
+grestore
+% Sputnik--Joe Biden's
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 111.41 117.85 moveto
+111.32 117.87 111.23 117.88 111.14 117.9 curveto
+stroke
+grestore
+% Sputnik--Emmanuel Macron
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 178.7 99.339 moveto
+178.83 99.287 178.95 99.235 179.08 99.183 curveto
+stroke
+grestore
+% Sputnik--Garland Nixon
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 109.18 110.63 moveto
+109.04 110.63 108.9 110.62 108.76 110.62 curveto
+stroke
+grestore
+% Sputnik--mediabankSubscribeMOSCOW
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 168.86 95.927 moveto
+175.27 90.786 182.44 85.041 189.03 79.754 curveto
+stroke
+grestore
+% Sputnik--Joe Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 135.9 127.19 moveto
+135.85 127.25 135.81 127.29 135.79 127.32 curveto
+stroke
+grestore
+% Sputnik--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 170.01 95.943 moveto
+170.3 95.718 170.54 95.541 170.7 95.42 curveto
+stroke
+grestore
+% Sputnik--joe biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 152.28 130.05 moveto
+153.5 137.22 154.89 145.42 156.11 152.56 curveto
+stroke
+grestore
+% Sputnik--Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 156.81 93.598 moveto
+160.98 83.738 166.11 71.59 170.25 61.795 curveto
+stroke
+grestore
+% Sputnik--zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 186.59 118.19 moveto
+186.73 118.21 186.88 118.24 187.03 118.26 curveto
+stroke
+grestore
+% Sputnik--Ted Rall
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 150.79 129.92 moveto
+152.09 144.38 153.9 164.52 155.2 179.05 curveto
+stroke
+grestore
+% Sputnik--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 147.63 129.85 moveto
+147.62 129.98 147.61 130.1 147.6 130.22 curveto
+stroke
+grestore
+% Sputnik--Ian DeMartino
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 119.89 124.27 moveto
+119.76 124.32 119.64 124.37 119.52 124.42 curveto
+stroke
+grestore
+% Sputnik--Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 154.68 93.652 moveto
+159.75 77.056 167.22 52.594 172.28 36.015 curveto
+stroke
+grestore
+% Sputnik--Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 179.52 123.48 moveto
+184.99 125.59 190.7 127.8 196.18 129.93 curveto
+stroke
+grestore
+% Sputnik--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 159.05 120.79 moveto
+159.08 120.82 159.11 120.85 159.13 120.86 curveto
+stroke
+grestore
+% Sputnik--Peter Szijjarto
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 147.23 93.419 moveto
+145.58 77.726 143.21 55.234 141.56 39.55 curveto
+stroke
+grestore
+% Sputnik--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 122.93 105.5 moveto
+122.91 105.49 122.89 105.49 122.88 105.48 curveto
+stroke
+grestore
+% Sputnik--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 168.63 127.63 moveto
+172.93 131.14 177.48 134.87 181.78 138.38 curveto
+stroke
+grestore
+% Sputnik--vladimir putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 185.68 104.52 moveto
+185.8 104.5 185.93 104.47 186.05 104.45 curveto
+stroke
+grestore
+% Sputnik--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 157.93 129.7 moveto
+159.91 133.78 162.02 138.1 164.01 142.17 curveto
+stroke
+grestore
+% Sputnik--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 176.48 125.11 moveto
+176.6 125.17 176.72 125.23 176.83 125.29 curveto
+stroke
+grestore
+% Sputnik--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 140.4 129.5 moveto
+135.95 138.54 130.56 149.49 126.08 158.58 curveto
+stroke
+grestore
+% Sputnik--Ursula von der
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 150.58 93.39 moveto
+151.8 77.673 153.55 55.147 154.77 39.437 curveto
+stroke
+grestore
+% Sputnik--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 153.08 93.509 moveto
+154.58 86.523 156.29 78.551 157.8 71.547 curveto
+stroke
+grestore
+% Sputnik--Kharkov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 159.08 129.59 moveto
+165.09 140.41 172.72 154.15 178.7 164.92 curveto
+stroke
+grestore
+% Sputnik--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 109.28 111.08 moveto
+109.14 111.08 108.99 111.08 108.85 111.08 curveto
+stroke
+grestore
+% Sputnik--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 139.12 129.48 moveto
+138.87 129.93 138.61 130.38 138.36 130.83 curveto
+stroke
+grestore
+% Sputnik--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 158.71 129.31 moveto
+158.78 129.45 158.86 129.59 158.93 129.73 curveto
+stroke
+grestore
+% Sputnik--We'd
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 130.57 128.11 moveto
+121.2 136.37 109.9 146.33 100.75 154.4 curveto
+stroke
+grestore
+% Sputnik--Jamarl Thomas
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 154.81 129.73 moveto
+159.78 145.6 167 168.61 172.01 184.57 curveto
+stroke
+grestore
+% Sputnik--donald trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 117.93 123.13 moveto
+113.09 124.9 108.03 126.74 103.04 128.56 curveto
+stroke
+grestore
+% Sputnik--Jeremy Kuzmarov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 146.62 129.82 moveto
+144.31 146.34 140.91 170.63 138.58 187.23 curveto
+stroke
+grestore
+% Sputnik--Jens Stoltenberg
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 174.93 97.64 moveto
+182.52 93.494 190.89 88.918 198.74 84.627 curveto
+stroke
+grestore
+% Sputnik--Rand Paul
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 135.95 129.02 moveto
+128.07 139.33 118.1 152.39 110.19 162.74 curveto
+stroke
+grestore
+% Sputnik--Nixon
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 113.77 103.5 moveto
+108.63 102.31 103.37 101.09 98.308 99.912 curveto
+stroke
+grestore
+% Sputnik--kiev loose
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 188.64 114.04 moveto
+195.31 114.43 202.29 114.84 209.16 115.25 curveto
+stroke
+grestore
+% Sputnik--ATACMS
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 164.58 128.74 moveto
+174.81 140.02 188.18 154.78 198.48 166.14 curveto
+stroke
+grestore
+% Dmitry Peskov--Maria Zakharova
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 202.87 56.858 moveto
+202.97 56.732 203.06 56.606 203.16 56.481 curveto
+stroke
+grestore
+% Dmitry Peskov--Emmanuel Macron
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 193.08 93.257 moveto
+193.08 93.274 193.08 93.288 193.09 93.296 curveto
+stroke
+grestore
+% Dmitry Peskov--mediabankSubscribeMOSCOW
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 211.36 61.839 moveto
+211.38 61.827 211.4 61.818 211.41 61.811 curveto
+stroke
+grestore
+% Dmitry Peskov--Joe Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 171.04 92.696 moveto
+165.24 98.399 158.82 104.7 153.07 110.35 curveto
+stroke
+grestore
+% Dmitry Peskov--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 173.17 92.748 moveto
+173 92.937 172.84 93.118 172.68 93.29 curveto
+stroke
+grestore
+% Dmitry Peskov--joe biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 183.48 92.957 moveto
+178.16 109.96 170.23 135.34 164.89 152.43 curveto
+stroke
+grestore
+% Dmitry Peskov--Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 182.35 56.641 moveto
+182.31 56.538 182.28 56.434 182.24 56.331 curveto
+stroke
+grestore
+% Dmitry Peskov--zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 202.02 92.949 moveto
+205.39 97.634 209.01 102.67 212.35 107.33 curveto
+stroke
+grestore
+% Dmitry Peskov--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 176.12 93.065 moveto
+170.85 100.41 164.8 108.86 159.61 116.1 curveto
+stroke
+grestore
+% Dmitry Peskov--Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 185.46 56.617 moveto
+184.17 50.114 182.71 42.799 181.42 36.299 curveto
+stroke
+grestore
+% Dmitry Peskov--Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 199.28 92.891 moveto
+204.82 102.65 211.65 114.68 217.15 124.37 curveto
+stroke
+grestore
+% Dmitry Peskov--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 177.27 93.107 moveto
+175.11 96.417 172.86 99.867 170.71 103.16 curveto
+stroke
+grestore
+% Dmitry Peskov--Peter Szijjarto
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 172.63 57.076 moveto
+167.23 51.221 161.25 44.722 155.87 38.886 curveto
+stroke
+grestore
+% Dmitry Peskov--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 154.82 90.751 moveto
+154.69 90.809 154.56 90.868 154.44 90.926 curveto
+stroke
+grestore
+% Dmitry Peskov--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 191.96 93.389 moveto
+193.96 106.23 196.61 123.29 198.6 136.11 curveto
+stroke
+grestore
+% Dmitry Peskov--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 194.14 93.118 moveto
+196.65 102.16 199.68 113.07 202.19 122.1 curveto
+stroke
+grestore
+% Dmitry Peskov--Ursula von der
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 177.96 56.73 moveto
+174.53 51.119 170.75 44.944 167.32 39.334 curveto
+stroke
+grestore
+% Dmitry Peskov--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 167.29 57.556 moveto
+167.19 57.475 167.09 57.395 166.99 57.315 curveto
+stroke
+grestore
+% Dmitry Peskov--Kharkov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 189 93.202 moveto
+188.88 112.99 188.7 144.38 188.59 164.2 curveto
+stroke
+grestore
+% Dmitry Peskov--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 151.65 90.325 moveto
+143.18 93.804 134.38 97.416 126.56 100.63 curveto
+stroke
+grestore
+% Dmitry Peskov--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 183.84 93.107 moveto
+180.66 104.1 176.61 118.06 173.44 129 curveto
+stroke
+grestore
+% Dmitry Peskov--Jens Stoltenberg
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 229.09 67.995 moveto
+229.13 67.989 229.16 67.984 229.18 67.98 curveto
+stroke
+grestore
+% Dmitry Peskov--ATACMS
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 193.37 93.37 moveto
+198.02 113.46 205.41 145.41 210.04 165.39 curveto
+stroke
+grestore
+% Maria Zakharova--Garland Nixon
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 172.1 65.922 moveto
+152.59 74.667 128.62 85.405 109.32 94.056 curveto
+stroke
+grestore
+% Maria Zakharova--mediabankSubscribeMOSCOW
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 211.39 61.666 moveto
+211.4 61.71 211.41 61.744 211.42 61.767 curveto
+stroke
+grestore
+% Maria Zakharova--Joe Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 191.5 67.703 moveto
+179.6 80.432 163.75 97.397 151.99 109.98 curveto
+stroke
+grestore
+% Maria Zakharova--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 193.55 67.688 moveto
+190.94 70.871 188.22 74.184 185.61 77.363 curveto
+stroke
+grestore
+% Maria Zakharova--Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 177.81 44.105 moveto
+177.78 44.1 177.76 44.096 177.75 44.093 curveto
+stroke
+grestore
+% Maria Zakharova--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 195.1 67.81 moveto
+184.59 82.204 170 102.18 159.72 116.26 curveto
+stroke
+grestore
+% Maria Zakharova--Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 212.04 67.904 moveto
+215.33 84.071 220.11 107.56 223.4 123.72 curveto
+stroke
+grestore
+% Maria Zakharova--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 195.92 67.653 moveto
+188.41 78.53 178.87 92.344 171.39 103.17 curveto
+stroke
+grestore
+% Maria Zakharova--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 202.45 67.902 moveto
+195.8 88.465 185.07 121.7 178.47 142.12 curveto
+stroke
+grestore
+% Maria Zakharova--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 161.89 53.133 moveto
+161.85 53.136 161.81 53.139 161.79 53.14 curveto
+stroke
+grestore
+% Maria Zakharova--kiev loose
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 221.29 67.659 moveto
+228.6 77.794 237.69 90.402 244.96 100.48 curveto
+stroke
+grestore
+% Joe Biden's--Joe Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 116.28 126.92 moveto
+116.37 126.92 116.45 126.92 116.54 126.92 curveto
+stroke
+grestore
+% Joe Biden's--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 104.17 114.09 moveto
+110.84 112.21 117.79 110.25 124.57 108.33 curveto
+stroke
+grestore
+% Joe Biden's--joe biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 94.824 140.55 moveto
+105.98 145.77 118.46 151.61 129.44 156.76 curveto
+stroke
+grestore
+% Joe Biden's--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 114.53 130.28 moveto
+114.67 130.3 114.8 130.31 114.94 130.32 curveto
+stroke
+grestore
+% Joe Biden's--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 115.9 123.05 moveto
+116.08 123.04 116.25 123.04 116.43 123.03 curveto
+stroke
+grestore
+% Joe Biden's--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 101.28 112.78 moveto
+101.37 112.75 101.46 112.72 101.56 112.68 curveto
+stroke
+grestore
+% Joe Biden's--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 81.379 142.99 moveto
+86.888 148.21 92.939 153.93 98.471 159.16 curveto
+stroke
+grestore
+% Joe Biden's--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 98.392 112.11 moveto
+98.509 112.07 98.623 112.02 98.734 111.98 curveto
+stroke
+grestore
+% Joe Biden's--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 100.15 138.97 moveto
+100.27 139.01 100.38 139.06 100.49 139.1 curveto
+stroke
+grestore
+% Joe Biden's--We'd
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 71.588 143.74 moveto
+72.829 146.38 74.106 149.09 75.344 151.72 curveto
+stroke
+grestore
+% Joe Biden's--donald trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 63.987 142.78 moveto
+63.988 142.79 63.989 142.81 63.989 142.81 curveto
+stroke
+grestore
+% Emmanuel Macron--mediabankSubscribeMOSCOW
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 203.76 74.981 moveto
+203.82 74.873 203.88 74.765 203.94 74.657 curveto
+stroke
+grestore
+% Emmanuel Macron--Joe Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 164.08 110.54 moveto
+163.31 111 162.53 111.46 161.75 111.92 curveto
+stroke
+grestore
+% Emmanuel Macron--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 171.01 95.229 moveto
+170.99 95.231 170.97 95.233 170.96 95.233 curveto
+stroke
+grestore
+% Emmanuel Macron--joe biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 185.05 111.65 moveto
+179.65 123.98 172.56 140.17 167.17 152.48 curveto
+stroke
+grestore
+% Emmanuel Macron--Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 187.37 74.982 moveto
+186.07 70.827 184.69 66.417 183.4 62.268 curveto
+stroke
+grestore
+% Emmanuel Macron--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 172.62 111.16 moveto
+170.15 113.32 167.64 115.51 165.21 117.63 curveto
+stroke
+grestore
+% Emmanuel Macron--Ian DeMartino
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 154.43 109.72 moveto
+144.77 113.82 134.44 118.21 124.89 122.26 curveto
+stroke
+grestore
+% Emmanuel Macron--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 171.41 110.93 moveto
+171.3 111.02 171.2 111.1 171.1 111.19 curveto
+stroke
+grestore
+% Emmanuel Macron--Peter Szijjarto
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 179.6 75.132 moveto
+171.44 64.128 161.07 50.153 152.94 39.195 curveto
+stroke
+grestore
+% Emmanuel Macron--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 127.04 104.75 moveto
+126.88 104.78 126.72 104.81 126.56 104.84 curveto
+stroke
+grestore
+% Emmanuel Macron--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 195.6 111.65 moveto
+196.65 119.39 197.88 128.38 198.94 136.12 curveto
+stroke
+grestore
+% Emmanuel Macron--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 187.52 111.53 moveto
+184.64 120.94 181.14 132.39 178.26 141.8 curveto
+stroke
+grestore
+% Emmanuel Macron--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 198.58 111.56 moveto
+199.61 114.95 200.67 118.5 201.7 121.89 curveto
+stroke
+grestore
+% Emmanuel Macron--Ursula von der
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 183.78 75.096 moveto
+178.19 64.155 171.09 50.28 165.5 39.34 curveto
+stroke
+grestore
+% Emmanuel Macron--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 178.89 75.107 moveto
+177.85 73.778 176.81 72.439 175.77 71.112 curveto
+stroke
+grestore
+% Emmanuel Macron--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 172.53 110.93 moveto
+164.79 117.55 156.01 125.08 148.31 131.68 curveto
+stroke
+grestore
+% Emmanuel Macron--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 184.68 111.45 moveto
+181.98 117.28 178.99 123.73 176.32 129.5 curveto
+stroke
+grestore
+% Emmanuel Macron--Rand Paul
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 173.6 110.91 moveto
+156.68 126.19 132.32 148.19 115.6 163.29 curveto
+stroke
+grestore
+% Emmanuel Macron--ATACMS
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 197.37 111.57 moveto
+201.04 127.22 206.3 149.66 209.97 165.3 curveto
+stroke
+grestore
+% Garland Nixon--Joe Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 120.6 123 moveto
+120.73 123.04 120.87 123.07 121 123.11 curveto
+stroke
+grestore
+% Garland Nixon--Ian DeMartino
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 83.572 127.92 moveto
+83.656 128.08 83.739 128.25 83.822 128.42 curveto
+stroke
+grestore
+% Garland Nixon--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 134.2 117.59 moveto
+134.31 117.6 134.42 117.62 134.53 117.63 curveto
+stroke
+grestore
+% Garland Nixon--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 122.72 105.49 moveto
+122.76 105.49 122.8 105.48 122.82 105.48 curveto
+stroke
+grestore
+% Garland Nixon--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 106.08 125.88 moveto
+119.88 132.95 135.8 141.1 148.61 147.67 curveto
+stroke
+grestore
+% Garland Nixon--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 97.826 126.81 moveto
+100.08 128.46 102.38 130.14 104.64 131.8 curveto
+stroke
+grestore
+% Garland Nixon--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 112.6 124.82 moveto
+123.05 128.97 134.1 133.35 143.58 137.11 curveto
+stroke
+grestore
+% Garland Nixon--Rand Paul
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 80.205 127.86 moveto
+83.516 138.32 87.663 151.42 90.984 161.91 curveto
+stroke
+grestore
+% Garland Nixon--Nixon
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 66.864 92.653 moveto
+66.857 92.636 66.851 92.624 66.848 92.616 curveto
+stroke
+grestore
+% mediabankSubscribeMOSCOW--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 189.76 79.693 moveto
+189.61 79.817 189.46 79.941 189.31 80.065 curveto
+stroke
+grestore
+% mediabankSubscribeMOSCOW--Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 177.82 44.14 moveto
+177.79 44.123 177.77 44.11 177.75 44.102 curveto
+stroke
+grestore
+% mediabankSubscribeMOSCOW--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 195.26 79.822 moveto
+185.02 91.225 171.9 105.85 161.98 116.91 curveto
+stroke
+grestore
+% mediabankSubscribeMOSCOW--Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 197.35 43.48 moveto
+195.27 40.76 193.12 37.965 191.05 35.268 curveto
+stroke
+grestore
+% mediabankSubscribeMOSCOW--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 195.46 79.851 moveto
+188.74 87.453 180.95 96.258 174.31 103.76 curveto
+stroke
+grestore
+% mediabankSubscribeMOSCOW--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 175.4 79.567 moveto
+168.79 82.826 161.93 86.211 155.43 89.417 curveto
+stroke
+grestore
+% mediabankSubscribeMOSCOW--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 209.45 80.106 moveto
+207.7 96.348 205.16 119.95 203.41 136.18 curveto
+stroke
+grestore
+% mediabankSubscribeMOSCOW--vladimir putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 214.05 80.108 moveto
+214.07 80.251 214.09 80.395 214.11 80.538 curveto
+stroke
+grestore
+% mediabankSubscribeMOSCOW--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 210.45 79.978 moveto
+209.77 92.549 208.87 109.21 208.19 121.82 curveto
+stroke
+grestore
+% mediabankSubscribeMOSCOW--Ursula von der
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 187.04 43.845 moveto
+184.5 41.973 181.92 40.073 179.39 38.21 curveto
+stroke
+grestore
+% mediabankSubscribeMOSCOW--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 161.9 53.168 moveto
+161.85 53.159 161.82 53.153 161.79 53.149 curveto
+stroke
+grestore
+% mediabankSubscribeMOSCOW--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 202.27 79.85 moveto
+194.84 94.487 184.44 114.99 177.1 129.46 curveto
+stroke
+grestore
+% mediabankSubscribeMOSCOW--Jens Stoltenberg
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 229.16 67.958 moveto
+229.18 67.964 229.19 67.968 229.2 67.971 curveto
+stroke
+grestore
+% mediabankSubscribeMOSCOW--kiev loose
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 226.31 79.923 moveto
+231.8 86.608 238.01 94.162 243.44 100.77 curveto
+stroke
+grestore
+% Joe Biden--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 154.17 110.55 moveto
+154.3 110.43 154.44 110.31 154.57 110.18 curveto
+stroke
+grestore
+% Joe Biden--joe biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 145.42 145.23 moveto
+146.78 147.75 148.18 150.34 149.54 152.85 curveto
+stroke
+grestore
+% Joe Biden--Peskov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 144.86 109.3 moveto
+151.95 95.233 161.73 75.82 168.78 61.838 curveto
+stroke
+grestore
+% Joe Biden--zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 183.72 125.99 moveto
+183.88 125.98 184.05 125.98 184.21 125.97 curveto
+stroke
+grestore
+% Joe Biden--Ted Rall
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 141.19 145.43 moveto
+144.31 155.82 148.23 168.84 151.37 179.27 curveto
+stroke
+grestore
+% Joe Biden--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 147.21 133.15 moveto
+147.26 133.17 147.29 133.18 147.31 133.2 curveto
+stroke
+grestore
+% Joe Biden--Ian DeMartino
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 93.901 136.54 moveto
+93.798 136.56 93.695 136.58 93.594 136.6 curveto
+stroke
+grestore
+% Joe Biden--Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 180.09 134.42 moveto
+182.99 134.88 185.91 135.35 188.79 135.8 curveto
+stroke
+grestore
+% Joe Biden--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 159.09 120.91 moveto
+159.11 120.9 159.13 120.9 159.14 120.89 curveto
+stroke
+grestore
+% Joe Biden--Peter Szijjarto
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 136.43 108.89 moveto
+137.14 89.414 138.26 58.934 138.97 39.541 curveto
+stroke
+grestore
+% Joe Biden--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 125.34 109.7 moveto
+125.25 109.54 125.16 109.39 125.07 109.24 curveto
+stroke
+grestore
+% Joe Biden--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 168.6 140.91 moveto
+169.37 141.23 170.14 141.54 170.91 141.86 curveto
+stroke
+grestore
+% Joe Biden--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 154.66 144.07 moveto
+154.8 144.19 154.94 144.32 155.08 144.44 curveto
+stroke
+grestore
+% Joe Biden--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 179.37 135.18 moveto
+179.49 135.21 179.6 135.23 179.72 135.25 curveto
+stroke
+grestore
+% Joe Biden--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 128.91 145.49 moveto
+127.29 149.79 125.56 154.37 123.94 158.67 curveto
+stroke
+grestore
+% Joe Biden--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 142.05 109.4 moveto
+146.07 97.901 151.29 83.027 155.34 71.461 curveto
+stroke
+grestore
+% Joe Biden--Kharkov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 152.15 144.52 moveto
+158.56 151.23 165.89 158.9 172.28 165.59 curveto
+stroke
+grestore
+% Joe Biden--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 105.61 112.97 moveto
+105.45 112.89 105.29 112.82 105.14 112.74 curveto
+stroke
+grestore
+% Joe Biden--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 129.29 145.61 moveto
+129.25 145.74 129.21 145.86 129.16 145.98 curveto
+stroke
+grestore
+% Joe Biden--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 161.68 142.95 moveto
+161.8 143.02 161.92 143.1 162.03 143.17 curveto
+stroke
+grestore
+% Joe Biden--Jamarl Thomas
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 145.7 145.25 moveto
+152.3 157.11 160.93 172.62 167.57 184.56 curveto
+stroke
+grestore
+% Joe Biden--donald trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 94.007 136.36 moveto
+93.884 136.39 93.761 136.41 93.637 136.44 curveto
+stroke
+grestore
+% Joe Biden--Jeremy Kuzmarov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 135.81 145.51 moveto
+135.85 158.06 135.91 174.69 135.95 187.28 curveto
+stroke
+grestore
+% Joe Biden--Jens Stoltenberg
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 160.31 111.76 moveto
+173.29 103.51 189.24 93.377 202.52 84.935 curveto
+stroke
+grestore
+% Joe Biden--Rand Paul
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 122.78 144.98 moveto
+118.62 150.63 114.01 156.89 109.84 162.55 curveto
+stroke
+grestore
+% Joe Biden--ATACMS
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 158.45 143.61 moveto
+168.87 151.06 181.18 159.88 191.59 167.33 curveto
+stroke
+grestore
+% Sergey Lavrov--joe biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 168.1 113.5 moveto
+166.26 125.27 163.89 140.53 162.05 152.32 curveto
+stroke
+grestore
+% Sergey Lavrov--zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 200.76 111.58 moveto
+200.86 111.63 200.96 111.68 201.05 111.74 curveto
+stroke
+grestore
+% Sergey Lavrov--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 159.7 113.33 moveto
+159.13 114.25 158.56 115.17 157.99 116.08 curveto
+stroke
+grestore
+% Sergey Lavrov--Ian DeMartino
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 139.77 111.3 moveto
+133.29 114.64 126.46 118.15 119.97 121.5 curveto
+stroke
+grestore
+% Sergey Lavrov--Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 172.56 76.931 moveto
+173.65 64.709 175.07 48.691 176.15 36.44 curveto
+stroke
+grestore
+% Sergey Lavrov--Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 191.85 112.61 moveto
+197.09 116.96 202.69 121.61 207.84 125.9 curveto
+stroke
+grestore
+% Sergey Lavrov--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 162.63 113.33 moveto
+162.57 113.46 162.51 113.6 162.45 113.73 curveto
+stroke
+grestore
+% Sergey Lavrov--Peter Szijjarto
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 163.2 76.952 moveto
+158.39 65.573 152.22 50.989 147.4 39.602 curveto
+stroke
+grestore
+% Sergey Lavrov--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 123 105.45 moveto
+122.95 105.46 122.92 105.47 122.89 105.47 curveto
+stroke
+grestore
+% Sergey Lavrov--vladimir putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 216.54 98.406 moveto
+216.58 98.409 216.61 98.411 216.63 98.413 curveto
+stroke
+grestore
+% Sergey Lavrov--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 171.44 113.62 moveto
+171.68 122.45 171.97 132.99 172.21 141.79 curveto
+stroke
+grestore
+% Sergey Lavrov--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 159 113.34 moveto
+150.07 126.85 137.94 145.24 129.02 158.74 curveto
+stroke
+grestore
+% Sergey Lavrov--Ursula von der
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 167.3 76.917 moveto
+165.03 65.517 162.12 50.905 159.85 39.496 curveto
+stroke
+grestore
+% Sergey Lavrov--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 166.99 77.14 moveto
+166.59 75.268 166.17 73.365 165.76 71.49 curveto
+stroke
+grestore
+% Sergey Lavrov--Kharkov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 174.58 113.33 moveto
+177.57 128.21 181.79 149.22 184.79 164.18 curveto
+stroke
+grestore
+% Sergey Lavrov--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 156.68 113.13 moveto
+152.1 118.87 147.03 125.23 142.45 130.98 curveto
+stroke
+grestore
+% Sergey Lavrov--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 169.99 113.6 moveto
+169.73 118.47 169.46 123.73 169.21 128.6 curveto
+stroke
+grestore
+% Sergey Lavrov--Jamarl Thomas
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 172.1 113.49 moveto
+173.35 133.28 175.33 164.68 176.58 184.5 curveto
+stroke
+grestore
+% Sergey Lavrov--donald trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 135.92 110.82 moveto
+123.86 116.19 110.37 122.19 98.359 127.53 curveto
+stroke
+grestore
+% Sergey Lavrov--Jeremy Kuzmarov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 165.17 113.46 moveto
+158.7 133.91 148.26 166.88 141.79 187.34 curveto
+stroke
+grestore
+% Sergey Lavrov--Jens Stoltenberg
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 204.84 79.378 moveto
+204.94 79.331 205.04 79.284 205.14 79.237 curveto
+stroke
+grestore
+% Sergey Lavrov--kiev loose
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 218.87 107.87 moveto
+219.03 107.91 219.18 107.95 219.34 107.99 curveto
+stroke
+grestore
+% Sergey Lavrov--ATACMS
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 179.91 113.53 moveto
+187.4 128.79 197.99 150.4 205.43 165.56 curveto
+stroke
+grestore
+% joe biden--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 153.41 152.39 moveto
+153.27 151.94 153.12 151.49 152.98 151.05 curveto
+stroke
+grestore
+% joe biden--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 159.18 152.42 moveto
+159.18 148.09 159.17 143.47 159.17 139.14 curveto
+stroke
+grestore
+% joe biden--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 149.26 152.86 moveto
+144.22 143.82 138.1 132.84 133.03 123.73 curveto
+stroke
+grestore
+% joe biden--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 192.07 158.05 moveto
+192.24 157.99 192.41 157.92 192.57 157.86 curveto
+stroke
+grestore
+% joe biden--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 183.48 155.25 moveto
+183.57 155.19 183.66 155.13 183.76 155.07 curveto
+stroke
+grestore
+% joe biden--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 117.23 176.78 moveto
+117.19 176.78 117.16 176.79 117.14 176.79 curveto
+stroke
+grestore
+% joe biden--Kharkov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 188.4 182.51 moveto
+188.43 182.52 188.45 182.53 188.46 182.54 curveto
+stroke
+grestore
+% joe biden--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 142.78 153.73 moveto
+134.51 145.17 124.54 134.87 116.46 126.52 curveto
+stroke
+grestore
+% joe biden--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 136.27 154.69 moveto
+136.12 154.58 135.98 154.48 135.83 154.38 curveto
+stroke
+grestore
+% joe biden--donald trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 122.38 159.91 moveto
+117.67 158.53 112.82 157.11 108.01 155.71 curveto
+stroke
+grestore
+% joe biden--Jens Stoltenberg
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 171.07 153.26 moveto
+183.79 134.6 203.88 105.13 216.8 86.176 curveto
+stroke
+grestore
+% Peskov--Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 186.78 62.029 moveto
+195.69 79.677 209.21 106.46 218.1 124.07 curveto
+stroke
+grestore
+% Peskov--Peter Szijjarto
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 153.82 29.769 moveto
+153.7 29.697 153.58 29.626 153.46 29.554 curveto
+stroke
+grestore
+% Peskov--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 162.73 60.864 moveto
+155.24 69.242 146.19 79.376 138.6 87.867 curveto
+stroke
+grestore
+% Peskov--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 181.64 62.313 moveto
+186.04 82.761 193.12 115.74 197.52 136.2 curveto
+stroke
+grestore
+% Peskov--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 183.27 62.162 moveto
+188.51 79.231 196.32 104.7 201.58 121.85 curveto
+stroke
+grestore
+% Peskov--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 161.8 53.117 moveto
+161.79 53.125 161.78 53.132 161.77 53.136 curveto
+stroke
+grestore
+% Peskov--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 159.64 59.936 moveto
+147.21 70.827 130.8 85.198 118.57 95.913 curveto
+stroke
+grestore
+% Peskov--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 176.03 62.47 moveto
+174.31 81.185 171.65 110.03 169.93 128.68 curveto
+stroke
+grestore
+% Peskov--Jens Stoltenberg
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 204.98 56.732 moveto
+205.07 56.776 205.17 56.821 205.26 56.866 curveto
+stroke
+grestore
+% zelensky--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 182.94 129.35 moveto
+181.94 129.46 180.95 129.57 179.96 129.68 curveto
+stroke
+grestore
+% zelensky--Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 216.91 106.69 moveto
+208.19 86.927 194.33 55.503 185.66 35.85 curveto
+stroke
+grestore
+% zelensky--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 181.78 122.24 moveto
+181.69 122.23 181.59 122.23 181.49 122.22 curveto
+stroke
+grestore
+% zelensky--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 185.15 117.28 moveto
+182.58 116.79 179.97 116.29 177.34 115.8 curveto
+stroke
+grestore
+% zelensky--vladimir putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 219.18 106.48 moveto
+219.14 106.34 219.09 106.2 219.05 106.06 curveto
+stroke
+grestore
+% zelensky--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 201.85 140.35 moveto
+199.12 142.19 196.34 144.06 193.64 145.88 curveto
+stroke
+grestore
+% zelensky--Kharkov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 213.78 142.44 moveto
+209.26 149.61 204.05 157.86 199.54 165.02 curveto
+stroke
+grestore
+% zelensky--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 187.47 134.15 moveto
+183.86 135.06 180.15 135.98 176.45 136.91 curveto
+stroke
+grestore
+% zelensky--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 192.93 137.28 moveto
+192.83 137.31 192.73 137.35 192.63 137.39 curveto
+stroke
+grestore
+% zelensky--Jamarl Thomas
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 214.2 142.51 moveto
+206.59 155.1 196.4 171.97 188.73 184.66 curveto
+stroke
+grestore
+% zelensky--ATACMS
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 221.58 143.07 moveto
+220.31 150.07 218.86 158.06 217.59 165.08 curveto
+stroke
+grestore
+% Ted Rall--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 154.16 179.26 moveto
+152.86 170.5 151.31 160.03 150.02 151.29 curveto
+stroke
+grestore
+% Ted Rall--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 150.14 179.33 moveto
+144.18 163.2 135.52 139.75 129.56 123.62 curveto
+stroke
+grestore
+% Ted Rall--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 174.22 180.74 moveto
+177.45 177.62 180.82 174.37 184.05 171.25 curveto
+stroke
+grestore
+% Ted Rall--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 164.41 179.64 moveto
+164.66 179.03 164.92 178.43 165.17 177.82 curveto
+stroke
+grestore
+% Ted Rall--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 171.96 180.31 moveto
+178.22 173.18 185.47 164.93 191.76 157.76 curveto
+stroke
+grestore
+% Ted Rall--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 129.68 183.35 moveto
+129.57 183.29 129.47 183.24 129.36 183.18 curveto
+stroke
+grestore
+% Ted Rall--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 146.31 179.72 moveto
+143.87 175.61 141.28 171.23 138.83 167.1 curveto
+stroke
+grestore
+% Ted Rall--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 160.97 179.24 moveto
+162.02 174.6 163.14 169.61 164.18 164.98 curveto
+stroke
+grestore
+% Ted Rall--Jamarl Thomas
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 177.68 202.83 moveto
+177.7 202.83 177.72 202.84 177.73 202.84 curveto
+stroke
+grestore
+% Ted Rall--Jeremy Kuzmarov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 136.07 205.57 moveto
+136.05 205.58 136.03 205.58 136.02 205.59 curveto
+stroke
+grestore
+% Biden--Ian DeMartino
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 114.47 135.73 moveto
+114.36 135.74 114.26 135.75 114.15 135.76 curveto
+stroke
+grestore
+% Biden--Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 179.78 136.75 moveto
+182.37 137.03 185 137.31 187.63 137.6 curveto
+stroke
+grestore
+% Biden--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 159.03 121.03 moveto
+159.07 120.98 159.1 120.95 159.12 120.92 curveto
+stroke
+grestore
+% Biden--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 132.82 116.76 moveto
+132.74 116.67 132.65 116.57 132.57 116.48 curveto
+stroke
+grestore
+% Biden--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 162.68 149.41 moveto
+162.76 149.5 162.85 149.59 162.93 149.68 curveto
+stroke
+grestore
+% Biden--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 135.39 150.44 moveto
+133.48 153.2 131.49 156.06 129.57 158.84 curveto
+stroke
+grestore
+% Biden--Ursula von der
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 148.79 114.96 moveto
+150.43 94.113 153.11 60.22 154.75 39.382 curveto
+stroke
+grestore
+% Biden--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 150.62 115.04 moveto
+152.96 102.03 156.1 84.575 158.45 71.517 curveto
+stroke
+grestore
+% Biden--Kharkov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 161.27 149.91 moveto
+165.38 154.83 169.87 160.23 174.01 165.19 curveto
+stroke
+grestore
+% Biden--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 122.22 121.04 moveto
+122.14 121 122.05 120.96 121.97 120.92 curveto
+stroke
+grestore
+% Biden--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 128.93 148.31 moveto
+128.66 148.52 128.46 148.69 128.31 148.81 curveto
+stroke
+grestore
+% Biden--Jamarl Thomas
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 155.17 151.14 moveto
+159.68 161.46 165.32 174.38 169.83 184.73 curveto
+stroke
+grestore
+% Biden--donald trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 114.88 136.96 moveto
+114.79 136.97 114.7 136.98 114.6 136.99 curveto
+stroke
+grestore
+% Biden--Jeremy Kuzmarov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 144.48 151.48 moveto
+142.77 162.45 140.59 176.36 138.87 187.33 curveto
+stroke
+grestore
+% Biden--Jens Stoltenberg
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 166.33 118.08 moveto
+178.52 108.37 194.39 95.724 207.14 85.565 curveto
+stroke
+grestore
+% Biden--Rand Paul
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 130.51 148.88 moveto
+125.57 153.48 120.15 158.53 115.12 163.21 curveto
+stroke
+grestore
+% Biden--ATACMS
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 167.05 148.04 moveto
+175.07 154.07 184.36 161.06 192.57 167.23 curveto
+stroke
+grestore
+% Ian DeMartino--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 138.71 125.76 moveto
+138.8 125.74 138.89 125.72 138.98 125.69 curveto
+stroke
+grestore
+% Ian DeMartino--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 107.28 120.09 moveto
+107.4 119.97 107.53 119.86 107.65 119.74 curveto
+stroke
+grestore
+% Ian DeMartino--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 101.45 155.43 moveto
+102.28 156.56 103.12 157.7 103.95 158.83 curveto
+stroke
+grestore
+% Ian DeMartino--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 104.02 119.79 moveto
+116.45 105.43 133.81 85.401 146.24 71.054 curveto
+stroke
+grestore
+% Ian DeMartino--Kharkov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 123.46 153.4 moveto
+134.95 158.55 147.6 164.22 158.67 169.18 curveto
+stroke
+grestore
+% Ian DeMartino--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 127.99 148.95 moveto
+128.02 148.96 128.05 148.97 128.07 148.98 curveto
+stroke
+grestore
+% Ian DeMartino--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 149.75 144.78 moveto
+149.92 144.79 150.08 144.81 150.25 144.83 curveto
+stroke
+grestore
+% Ian DeMartino--Jeremy Kuzmarov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 100.97 155.56 moveto
+107.9 165.45 116.5 177.73 123.44 187.64 curveto
+stroke
+grestore
+% Lavrov--Peter Szijjarto
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 140.58 21.192 moveto
+140.28 21.218 140.04 21.238 139.88 21.252 curveto
+stroke
+grestore
+% Lavrov--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 166.93 35.283 moveto
+157.49 50.321 143.85 72.041 134.25 87.329 curveto
+stroke
+grestore
+% Lavrov--Ursula von der
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 156.26 21.123 moveto
+156.24 21.126 156.22 21.129 156.21 21.13 curveto
+stroke
+grestore
+% Blinken--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 193.53 131.52 moveto
+193.39 131.48 193.26 131.43 193.12 131.39 curveto
+stroke
+grestore
+% Blinken--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 214.19 124.36 moveto
+202.88 109.01 186.52 86.777 175.09 71.251 curveto
+stroke
+grestore
+% Blinken--Kharkov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 211.39 158.43 moveto
+209.14 160.81 206.81 163.25 204.55 165.63 curveto
+stroke
+grestore
+% Blinken--Jeremy Kuzmarov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 205.05 157.32 moveto
+191.78 166.6 174.85 178.43 161.07 188.07 curveto
+stroke
+grestore
+% Blinken--ATACMS
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 221.57 159.8 moveto
+221 161.65 220.42 163.53 219.84 165.39 curveto
+stroke
+grestore
+% Donbass--Peter Szijjarto
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 155.58 102.62 moveto
+152.06 84.644 146.71 57.362 143.2 39.428 curveto
+stroke
+grestore
+% Donbass--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 128.53 107.89 moveto
+128.42 107.84 128.32 107.8 128.21 107.75 curveto
+stroke
+grestore
+% Donbass--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 179.31 136.88 moveto
+179.91 137.36 180.5 137.83 181.1 138.3 curveto
+stroke
+grestore
+% Donbass--vladimir putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 190.94 108.47 moveto
+191.04 108.43 191.15 108.39 191.25 108.35 curveto
+stroke
+grestore
+% Donbass--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 165.45 139.07 moveto
+165.78 140.03 166.12 140.99 166.45 141.95 curveto
+stroke
+grestore
+% Donbass--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 190.4 133.43 moveto
+190.54 133.49 190.68 133.54 190.83 133.6 curveto
+stroke
+grestore
+% Donbass--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 146.08 138.27 moveto
+141.17 144.81 135.57 152.25 130.61 158.84 curveto
+stroke
+grestore
+% Donbass--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 159.85 102.73 moveto
+160.23 93.014 160.69 81.075 161.06 71.348 curveto
+stroke
+grestore
+% Donbass--Kharkov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 167.64 138.72 moveto
+171.5 146.83 176.05 156.41 179.92 164.54 curveto
+stroke
+grestore
+% Donbass--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 119.36 114.05 moveto
+119.2 114.02 119.04 113.99 118.89 113.96 curveto
+stroke
+grestore
+% Donbass--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 140.73 137.56 moveto
+140.63 137.65 140.52 137.75 140.42 137.84 curveto
+stroke
+grestore
+% Donbass--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 165.47 138.96 moveto
+165.52 139.1 165.57 139.23 165.62 139.37 curveto
+stroke
+grestore
+% Donbass--Jamarl Thomas
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 163.28 139.08 moveto
+166.34 152.56 170.49 170.88 173.56 184.42 curveto
+stroke
+grestore
+% Donbass--donald trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 121.27 129.62 moveto
+118.47 130.27 115.63 130.92 112.78 131.58 curveto
+stroke
+grestore
+% Donbass--Jens Stoltenberg
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 180.18 105.01 moveto
+188.4 98.803 197.85 91.662 206.25 85.317 curveto
+stroke
+grestore
+% Donbass--ATACMS
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 174.21 138.01 moveto
+181.86 146.7 191.13 157.25 198.82 166 curveto
+stroke
+grestore
+% Peter Szijjarto--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 136 39.544 moveto
+133.18 53.669 129.3 73.128 126.49 87.243 curveto
+stroke
+grestore
+% Peter Szijjarto--Ursula von der
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 156.15 21.133 moveto
+156.16 21.133 156.17 21.133 156.18 21.132 curveto
+stroke
+grestore
+% Donald Trump--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 149.9 122.33 moveto
+158.78 127.87 168.59 133.98 177.24 139.37 curveto
+stroke
+grestore
+% Donald Trump--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 139.18 123.33 moveto
+145.2 129.92 151.98 137.33 157.86 143.77 curveto
+stroke
+grestore
+% Donald Trump--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 159.61 120.6 moveto
+163.87 122.35 168.2 124.13 172.44 125.87 curveto
+stroke
+grestore
+% Donald Trump--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 121.38 123.84 moveto
+120.51 134.57 119.42 148.06 118.56 158.74 curveto
+stroke
+grestore
+% Donald Trump--Ursula von der
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 130.09 87.177 moveto
+135.68 73.029 143.39 53.537 148.98 39.399 curveto
+stroke
+grestore
+% Donald Trump--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 136.24 87.468 moveto
+140.2 82.146 144.53 76.323 148.48 71.01 curveto
+stroke
+grestore
+% Donald Trump--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 101.46 110.94 moveto
+101.44 110.95 101.42 110.95 101.41 110.95 curveto
+stroke
+grestore
+% Donald Trump--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 125.08 123.93 moveto
+125.35 126.15 125.62 128.42 125.89 130.65 curveto
+stroke
+grestore
+% Donald Trump--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 142.11 123.05 moveto
+145.3 125.96 148.58 128.95 151.7 131.8 curveto
+stroke
+grestore
+% Donald Trump--donald trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 96.18 122.4 moveto
+94.233 123.64 92.269 124.89 90.325 126.12 curveto
+stroke
+grestore
+% Donald Trump--Jeremy Kuzmarov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 125.27 123.84 moveto
+127.64 141.9 131.24 169.32 133.61 187.35 curveto
+stroke
+grestore
+% Kherson--vladimir putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 206.43 136.1 moveto
+208.13 129.85 210.03 122.86 211.72 116.61 curveto
+stroke
+grestore
+% Kherson--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 172.78 159.99 moveto
+172.75 159.99 172.73 160 172.72 160 curveto
+stroke
+grestore
+% Kherson--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 207.14 140.33 moveto
+207.16 140.28 207.17 140.24 207.18 140.21 curveto
+stroke
+grestore
+% Kherson--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 165.19 164.06 moveto
+165.1 164.08 165.01 164.1 164.92 164.13 curveto
+stroke
+grestore
+% Kherson--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 171.43 141.4 moveto
+156.92 135.09 139.73 127.62 126.01 121.66 curveto
+stroke
+grestore
+% Kherson--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 159.63 151.33 moveto
+159.5 151.33 159.37 151.32 159.24 151.31 curveto
+stroke
+grestore
+% Kherson--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 168.35 146.93 moveto
+168.32 146.92 168.29 146.91 168.28 146.91 curveto
+stroke
+grestore
+% vladimir putin--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 203.95 116.23 moveto
+197.96 124.61 190.86 134.57 184.93 142.86 curveto
+stroke
+grestore
+% vladimir putin--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 212.49 116.85 moveto
+212.11 118.51 211.73 120.19 211.35 121.85 curveto
+stroke
+grestore
+% vladimir putin--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 156.33 104.98 moveto
+147.62 105.93 138.98 106.87 131.23 107.71 curveto
+stroke
+grestore
+% vladimir putin--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 188.16 114.69 moveto
+178.14 120.41 166.89 126.84 156.86 132.56 curveto
+stroke
+grestore
+% vladimir putin--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 198.91 116.2 moveto
+193.95 121.17 188.59 126.53 183.77 131.37 curveto
+stroke
+grestore
+% Miles--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 195.52 146.89 moveto
+195.62 146.83 195.72 146.77 195.82 146.71 curveto
+stroke
+grestore
+% Miles--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 143.93 168.69 moveto
+143.82 168.73 143.71 168.76 143.61 168.79 curveto
+stroke
+grestore
+% Miles--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 170.84 141.88 moveto
+168.83 122.22 165.64 91.044 163.62 71.359 curveto
+stroke
+grestore
+% Miles--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 152.08 145.82 moveto
+142.37 139.14 130.84 131.21 121.24 124.6 curveto
+stroke
+grestore
+% Miles--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 142.7 152.59 moveto
+142.58 152.56 142.45 152.53 142.33 152.5 curveto
+stroke
+grestore
+% Miles--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 168.3 147.05 moveto
+168.29 147 168.27 146.97 168.27 146.94 curveto
+stroke
+grestore
+% Miles--Jeremy Kuzmarov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 159.25 176.72 moveto
+156.38 180.28 153.35 184.05 150.45 187.65 curveto
+stroke
+grestore
+% Miles--ATACMS
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 195.42 172.87 moveto
+195.57 172.96 195.72 173.04 195.87 173.13 curveto
+stroke
+grestore
+% Zaporozhye--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 172.11 154.44 moveto
+166.28 156.81 160.22 159.27 154.33 161.66 curveto
+stroke
+grestore
+% Zaporozhye--Kharkov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 199.15 158.39 moveto
+198.24 160.45 197.31 162.55 196.4 164.61 curveto
+stroke
+grestore
+% Zaporozhye--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 164.78 128.46 moveto
+152.7 125.12 139.87 121.58 128.93 118.56 curveto
+stroke
+grestore
+% Zaporozhye--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 154.88 146 moveto
+154.76 146.02 154.65 146.03 154.53 146.04 curveto
+stroke
+grestore
+% Zaporozhye--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 168.36 146.89 moveto
+168.33 146.89 168.3 146.9 168.28 146.9 curveto
+stroke
+grestore
+% Kamala Harris--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 112.73 158.45 moveto
+110.55 149.32 107.93 138.32 105.75 129.2 curveto
+stroke
+grestore
+% Kamala Harris--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 124.25 158.71 moveto
+124.32 158.55 124.39 158.38 124.45 158.22 curveto
+stroke
+grestore
+% Kamala Harris--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 145.37 160.28 moveto
+145.83 160.01 146.3 159.74 146.75 159.47 curveto
+stroke
+grestore
+% Kamala Harris--donald trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 90.86 160.01 moveto
+90.546 159.81 90.232 159.61 89.919 159.41 curveto
+stroke
+grestore
+% Kamala Harris--Jeremy Kuzmarov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 128.97 194.87 moveto
+129.03 194.96 129.09 195.05 129.15 195.14 curveto
+stroke
+grestore
+% Ursula von der--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 157.95 39.421 moveto
+160.23 63.266 164.21 104.74 166.5 128.59 curveto
+stroke
+grestore
+% Antony Blinken--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 155.43 71.17 moveto
+149.45 88.197 140.52 113.61 134.52 130.71 curveto
+stroke
+grestore
+% Kharkov--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 162.17 167.92 moveto
+160.65 167.08 159.11 166.22 157.57 165.37 curveto
+stroke
+grestore
+% Kharkov--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 178.37 164.72 moveto
+178.29 164.59 178.21 164.45 178.13 164.31 curveto
+stroke
+grestore
+% putin--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 113.19 127.75 moveto
+113.97 128.86 114.76 129.99 115.54 131.11 curveto
+stroke
+grestore
+% putin--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 124.03 123.13 moveto
+131.15 126.96 139.01 131.18 146.1 134.99 curveto
+stroke
+grestore
+% Mark Sleboda--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 168.14 146.91 moveto
+168.18 146.91 168.2 146.91 168.22 146.91 curveto
+stroke
+grestore
+% We'd--Joe Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 101.61 154.96 moveto
+105.96 151.44 110.65 147.65 115.12 144.04 curveto
+stroke
+grestore
+% We'd--joe biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 113.1 169.92 moveto
+113.26 169.93 113.43 169.93 113.59 169.93 curveto
+stroke
+grestore
+% We'd--Ted Rall
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 108.87 179.1 moveto
+113.99 181.07 119.45 183.16 124.78 185.21 curveto
+stroke
+grestore
+% We'd--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 105.6 156.97 moveto
+111.64 153.53 118.21 149.79 124.31 146.32 curveto
+stroke
+grestore
+% We'd--Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 112.02 164 moveto
+134.31 159.72 165.54 153.72 189.85 149.05 curveto
+stroke
+grestore
+% We'd--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 94.185 152.3 moveto
+99.623 143.42 106.26 132.58 111.78 123.56 curveto
+stroke
+grestore
+% We'd--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 111.59 175.58 moveto
+111.69 175.6 111.79 175.63 111.89 175.65 curveto
+stroke
+grestore
+% We'd--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 107.45 158.49 moveto
+107.62 158.42 107.78 158.34 107.95 158.27 curveto
+stroke
+grestore
+% We'd--Jamarl Thomas
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 109.39 178.57 moveto
+117.76 181.54 127.29 184.92 136.5 188.2 curveto
+stroke
+grestore
+% We'd--donald trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 71.325 152.74 moveto
+71.201 152.57 71.078 152.4 70.955 152.24 curveto
+stroke
+grestore
+% We'd--Jeremy Kuzmarov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 103.47 183.11 moveto
+105.9 184.79 108.41 186.52 110.9 188.25 curveto
+stroke
+grestore
+% We'd--Nixon
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 79.696 151.23 moveto
+77.03 139.07 73.536 123.14 70.864 110.95 curveto
+stroke
+grestore
+% Jamarl Thomas--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 175.57 184.43 moveto
+175.34 182.43 175.1 180.4 174.86 178.4 curveto
+stroke
+grestore
+% Jamarl Thomas--Kamala Harris
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 141.42 187.24 moveto
+141.32 187.2 141.22 187.15 141.12 187.11 curveto
+stroke
+grestore
+% Jamarl Thomas--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 161.21 184.91 moveto
+155.8 179.03 149.78 172.51 144.39 166.66 curveto
+stroke
+grestore
+% Jamarl Thomas--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 174.63 184.53 moveto
+173.57 178.28 172.39 171.3 171.33 165.07 curveto
+stroke
+grestore
+% Jamarl Thomas--Jeremy Kuzmarov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 136.13 205.58 moveto
+136.09 205.59 136.06 205.59 136.04 205.59 curveto
+stroke
+grestore
+% Jamarl Thomas--ATACMS
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 208.86 186.38 moveto
+208.96 186.33 209.06 186.28 209.16 186.22 curveto
+stroke
+grestore
+% donald trump--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 84.445 125.4 moveto
+84.581 125.28 84.718 125.17 84.854 125.05 curveto
+stroke
+grestore
+% donald trump--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 122.63 148.46 moveto
+122.74 148.47 122.84 148.48 122.95 148.49 curveto
+stroke
+grestore
+% Jeremy Kuzmarov--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 133.46 187.37 moveto
+132.56 180.91 131.54 173.64 130.64 167.17 curveto
+stroke
+grestore
+% Jens Stoltenberg--Peter Szijjarto
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 197.38 51.378 moveto
+188.63 46.816 179.16 41.878 170.47 37.346 curveto
+stroke
+grestore
+% Jens Stoltenberg--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 223.66 86.194 moveto
+220.32 97.138 216.09 111.02 212.75 121.96 curveto
+stroke
+grestore
+% Jens Stoltenberg--Antony Blinken
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 174.44 55.933 moveto
+174.33 55.907 174.21 55.881 174.09 55.856 curveto
+stroke
+grestore
+% Rand Paul--Ian DeMartino
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 93.221 161.98 moveto
+92.833 160 92.439 157.98 92.051 156 curveto
+stroke
+grestore
+% Rand Paul--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 103.11 162.16 moveto
+107.17 150.49 112.44 135.37 116.52 123.68 curveto
+stroke
+grestore
+% Rand Paul--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 127.51 165.92 moveto
+133.26 163.24 139.19 160.47 144.68 157.91 curveto
+stroke
+grestore
+% Rand Paul--ATACMS
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 146.26 181.64 moveto
+152.78 181.82 159.46 182.01 165.96 182.19 curveto
+stroke
+grestore
+% Nixon--Ian DeMartino
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 75.393 110.44 moveto
+76.811 113.39 78.283 116.46 79.705 119.43 curveto
+stroke
+grestore
+% Nixon--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 96.56 101.71 moveto
+105.41 104.42 115.2 107.42 124.35 110.22 curveto
+stroke
+grestore
+% Nixon--Donald Trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 98.451 99.869 moveto
+98.551 99.892 98.65 99.915 98.749 99.938 curveto
+stroke
+grestore
+% Nixon--vladimir putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 100.84 93.922 moveto
+116.21 94.518 134.89 95.243 152.72 95.935 curveto
+stroke
+grestore
+% Nixon--Miles
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 89.033 106.73 moveto
+107.34 118.39 133.16 134.83 151.26 146.35 curveto
+stroke
+grestore
+% Nixon--putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 91.217 105.55 moveto
+91.306 105.6 91.395 105.64 91.484 105.69 curveto
+stroke
+grestore
+% Nixon--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 83.905 108.31 moveto
+91.694 115.48 100.95 124 108.97 131.38 curveto
+stroke
+grestore
+% Nixon--Rand Paul
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 73.049 110.77 moveto
+78.189 125.81 85.459 147.09 90.598 162.13 curveto
+stroke
+grestore
+% kiev loose--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 208.7 119.48 moveto
+206.48 119.55 204.26 119.61 202.05 119.67 curveto
+stroke
+grestore
+% kiev loose--Kherson
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 233.17 133.93 moveto
+230.45 135.69 227.68 137.49 224.97 139.24 curveto
+stroke
+grestore
+% kiev loose--Zaporozhye
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 225.71 132.08 moveto
+225.55 132.15 225.39 132.21 225.24 132.28 curveto
+stroke
+grestore
+% kiev loose--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 220.52 130.06 moveto
+211.7 132.91 202.46 135.88 194.25 138.53 curveto
+stroke
+grestore
+% ATACMS--Kharkov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 188.56 182.55 moveto
+188.53 182.55 188.52 182.55 188.5 182.55 curveto
+stroke
+grestore
+% ATACMS--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 181.18 170.28 moveto
+176.06 168.22 170.73 166.09 165.52 164 curveto
+stroke
+grestore
+% ATACMS--Kiev
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 193.4 166.93 moveto
+191.02 165.04 188.62 163.12 186.28 161.26 curveto
+stroke
+grestore
+% ATACMS--Jeremy Kuzmarov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 175.13 194.56 moveto
+174.97 194.61 174.82 194.65 174.67 194.69 curveto
+stroke
+grestore
+% Donald Trump's
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+71.925 64.782 70.801 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+28.05 59.732 moveto 87.75 (Donald Trump's) alignedtext
+grestore
+% Donald Trump's--Viktor Orban
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 99.058 47.75 moveto
+99.209 47.655 99.359 47.561 99.509 47.466 curveto
+stroke
+grestore
+% Donald Trump's--Volodymyr Zelensky
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 106.7 80.742 moveto
+106.83 80.798 106.95 80.855 107.07 80.911 curveto
+stroke
+grestore
+% Donald Trump's--Benjamin Netanyahu
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 87.553 82.643 moveto
+87.719 82.833 87.878 83.015 88.029 83.187 curveto
+stroke
+grestore
+% Donald Trump's--Vladimir Putin
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 112.27 79.931 moveto
+112.58 80.05 112.9 80.168 113.21 80.286 curveto
+stroke
+grestore
+% Donald Trump's--Sputnik
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 99.809 81.729 moveto
+108.1 86.771 117.12 92.249 125.15 97.128 curveto
+stroke
+grestore
+% Donald Trump's--Joe Biden's
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 69.275 83.058 moveto
+68.157 90.767 66.858 99.724 65.74 107.43 curveto
+stroke
+grestore
+% Donald Trump's--Joe Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 90.044 82.549 moveto
+98.889 91.222 109.49 101.61 118.25 110.2 curveto
+stroke
+grestore
+% Donald Trump's--Sergey Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 117.67 78.85 moveto
+120.61 79.753 123.56 80.663 126.49 81.565 curveto
+stroke
+grestore
+% Donald Trump's--Biden
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 91.348 82.405 moveto
+103.31 93.255 118.5 107.04 130.05 117.52 curveto
+stroke
+grestore
+% Donald Trump's--Lavrov
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 107.76 48.944 moveto
+121.44 42.9 136.82 36.103 149.68 30.422 curveto
+stroke
+grestore
+% Donald Trump's--Donbass
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 98.572 81.921 moveto
+110.3 89.462 123.96 98.25 135.34 105.57 curveto
+stroke
+grestore
+% Donald Trump's--Mark Sleboda
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 83.838 82.64 moveto
+93.307 96.833 106.5 116.6 116.01 130.86 curveto
+stroke
+grestore
+% Donald Trump's--We'd
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 73.974 83.012 moveto
+76.12 102.1 79.471 131.92 81.623 151.07 curveto
+stroke
+grestore
+% Donald Trump's--donald trump
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 70.085 82.883 moveto
+68.812 95.402 67.124 112 65.848 124.55 curveto
+stroke
+grestore
+endpage
+showpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+%%Pages: 1
+%%BoundingBox: 36 36 386 268
+end
+restore
+%%EOF
